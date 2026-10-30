@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "paper_title": "Learning to Fix Retiming and Reordering Decisions in Railway Timetable Rescheduling",
+  "mapping": [
+    {
+      "manuscript_claim": "Candidate indicator definitions and retrieved studies",
+      "section": "S1",
+      "catalog_items": 191,
+      "retrieved_studies": 22,
+      "source": "supplementary/source/sections/indicator_appendix.tex"
+    },
+    {
+      "manuscript_claim": "Complete computation times, upstream reference costs and offline costs",
+      "section": "S2",
+      "source": "supplementary/source/sections/figure_values.tex"
+    },
+    {
+      "manuscript_claim": "Complete associations, signed duration changes, uncertainty, stability and input-selection frequencies",
+      "section": "S3",
+      "association_responses": 6402,
+      "source": "supplementary/source/sections/association_results_appendix.tex"
+    },
+    {
+      "manuscript_claim": "Remaining candidate definitions and association availability",
+      "section": "S4",
+      "catalog_items": 76,
+      "source": "supplementary/source/sections/other_catalog_items.tex"
+    },
+    {
+      "manuscript_claim": "Architectures, parameter ranges, selected settings, screening and inner validation",
+      "section": "S5",
+      "source": "supplementary/source/sections/prediction_settings.tex"
+    }
+  ],
+  "duplicate_or_stale_material_removed": [
+    "Red review markings and local-draft notices",
+    "Repeated method explanations",
+    "Outdated computation-time terminology"
+  ],
+  "experiment_code_and_results_changed": false
+}

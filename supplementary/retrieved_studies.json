@@ -1,0 +1,252 @@
+{
+  "study_count": 22,
+  "confirmed_as_catalog_context_by_author": true,
+  "confirmation_date": "2026-10-30",
+  "source_manifest": "literature_deep_review/papers.json",
+  "source_manifest_sha256": "23bff8f070c9f44c1cc18d8a9a0c9a0d533a952e0f2842e3c5d8c0b98719b76d",
+  "chinese_study_english_metadata_source": "https://jdxb.bjtu.edu.cn/EN/10.11860/j.issn.1673-0291.20230073",
+  "records": [
+    {
+      "study_id": 1,
+      "authors_year": "Goverde (2007)",
+      "title": "Railway timetable stability analysis using max-plus system theory",
+      "doi": "10.1016/j.trb.2006.02.003",
+      "source_url": "https://doi.org/10.1016/j.trb.2006.02.003",
+      "authors_year_original": "Goverde (2007)",
+      "title_original": "Railway timetable stability analysis using max-plus system theory",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 2,
+      "authors_year": "Goverde (2010)",
+      "title": "A delay propagation algorithm for large-scale railway traffic networks",
+      "doi": "10.1016/j.trc.2010.01.002",
+      "source_url": "https://doi.org/10.1016/j.trc.2010.01.002",
+      "authors_year_original": "Goverde (2010)",
+      "title_original": "A delay propagation algorithm for large-scale railway traffic networks",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 3,
+      "authors_year": "Büker and Seybold (2012)",
+      "title": "Stochastic modelling of delay propagation in large networks",
+      "doi": "10.1016/j.jrtpm.2012.10.001",
+      "source_url": "https://doi.org/10.1016/j.jrtpm.2012.10.001",
+      "authors_year_original": "Büker and Seybold (2012)",
+      "title_original": "Stochastic modelling of delay propagation in large networks",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 4,
+      "authors_year": "Harrod, Cerreto and Nielsen (2019)",
+      "title": "A closed form railway line delay propagation model",
+      "doi": "10.1016/j.trc.2019.02.022",
+      "source_url": "https://doi.org/10.1016/j.trc.2019.02.022",
+      "authors_year_original": "Harrod, Cerreto and Nielsen (2019)",
+      "title_original": "A closed form railway line delay propagation model",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 5,
+      "authors_year": "Andersson, Peterson and Törnquist Krasemann (2013; online 2014)",
+      "title": "Quantifying railway timetable robustness in critical points",
+      "doi": "10.1016/j.jrtpm.2013.12.002",
+      "source_url": "https://doi.org/10.1016/j.jrtpm.2013.12.002",
+      "authors_year_original": "Andersson, Peterson and Törnquist Krasemann (2013; online 2014)",
+      "title_original": "Quantifying railway timetable robustness in critical points",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 6,
+      "authors_year": "Ma et al. (2021)",
+      "title": "Scheduling-measure dependent modelling of delay propagation on a single railway line: A matrix transformation approach",
+      "doi": "10.1049/itr2.12112",
+      "source_url": "https://doi.org/10.1049/itr2.12112",
+      "authors_year_original": "Ma et al. (2021)",
+      "title_original": "Scheduling-measure dependent modelling of delay propagation on a single railway line: A matrix transformation approach",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 7,
+      "authors_year": "Meng et al. (2019)",
+      "title": "Increasing Robustness by Reallocating the Margins in the Timetable",
+      "doi": "10.1155/2019/1382394",
+      "source_url": "https://doi.org/10.1155/2019/1382394",
+      "authors_year_original": "Meng et al. (2019)",
+      "title_original": "Increasing Robustness by Reallocating the Margins in the Timetable",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 8,
+      "authors_year": "Wu et al. (2023)",
+      "title": "Cascading Delays for the High-Speed Rail Network Under Different Emergencies: A Double Layer Network Approach",
+      "doi": "10.1109/JAS.2022.105530",
+      "source_url": "https://doi.org/10.1109/JAS.2022.105530",
+      "authors_year_original": "Wu et al. (2023)",
+      "title_original": "Cascading Delays for the High-Speed Rail Network Under Different Emergencies: A Double Layer Network Approach",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 9,
+      "authors_year": "Lian et al. (2024)",
+      "title": "Bi-Directional Delay Propagation Analysis and Modeling for High-Speed Railway Networks Under Disturbance",
+      "doi": "10.1109/TCSS.2023.3322747",
+      "source_url": "https://doi.org/10.1109/TCSS.2023.3322747",
+      "authors_year_original": "Lian et al. (2024)",
+      "title_original": "Bi-Directional Delay Propagation Analysis and Modeling for High-Speed Railway Networks Under Disturbance",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 10,
+      "authors_year": "Tessitore et al. (2025)",
+      "title": "On the fragility of a train timetable",
+      "doi": "10.1016/j.omega.2025.103341",
+      "source_url": "https://doi.org/10.1016/j.omega.2025.103341",
+      "authors_year_original": "Tessitore et al. (2025)",
+      "title_original": "On the fragility of a train timetable",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 11,
+      "authors_year": "Corman et al. (2014)",
+      "title": "Evaluating Disturbance Robustness of Railway Schedules",
+      "doi": "10.1080/15472450.2013.801714",
+      "source_url": "https://doi.org/10.1080/15472450.2013.801714",
+      "authors_year_original": "Corman et al. (2014)",
+      "title_original": "Evaluating Disturbance Robustness of Railway Schedules",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 12,
+      "authors_year": "Zhang et al. (2024)",
+      "title": "Propagation-Based Train Rescheduling under Recoverable Delay Disturbances",
+      "doi": "10.1155/2024/9961840",
+      "source_url": "https://doi.org/10.1155/2024/9961840",
+      "authors_year_original": "Zhang et al. (2024)",
+      "title_original": "Propagation-Based Train Rescheduling under Recoverable Delay Disturbances",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 13,
+      "authors_year": "Huang et al. (2026; online 2025)",
+      "title": "Solving the railway timetable rescheduling problem with graph neural networks",
+      "doi": "10.1007/s40534-025-00383-7",
+      "source_url": "https://doi.org/10.1007/s40534-025-00383-7",
+      "authors_year_original": "Huang et al. (2026（online2025）)",
+      "title_original": "Solving the railway timetable rescheduling problem with graph neural networks",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 14,
+      "authors_year": "Acuña-Agost et al. (2011)",
+      "title": "SAPI: Statistical Analysis of Propagation of Incidents. A new approach for rescheduling trains after disruptions",
+      "doi": "10.1016/j.ejor.2011.05.047",
+      "source_url": "https://doi.org/10.1016/j.ejor.2011.05.047",
+      "authors_year_original": "Acuña-Agost et al. (2011)",
+      "title_original": "SAPI: Statistical Analysis of Propagation of Incidents. A new approach for rescheduling trains after disruptions",
+      "reading_level_original": "预览或摘要",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 15,
+      "authors_year": "Tessitore et al. (2025)",
+      "title": "An iterative fragility-based approach to timetable design",
+      "doi": "10.1016/j.jrtpm.2025.100554",
+      "source_url": "https://doi.org/10.1016/j.jrtpm.2025.100554",
+      "authors_year_original": "Tessitore et al. (2025)",
+      "title_original": "An iterative fragility-based approach to timetable design",
+      "reading_level_original": "预览或摘要",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 16,
+      "authors_year": "Hua et al. (2024)",
+      "title": "Improving timetable resilience for high-speed railways through time supplement allocation",
+      "doi": "10.11860/j.issn.1673-0291.20230073",
+      "source_url": "https://doi.org/10.11860/j.issn.1673-0291.20230073",
+      "authors_year_original": "华祎旻等 (2024)",
+      "title_original": "面向高速铁路列车运行图弹性提升的冗余时间分配方法",
+      "reading_level_original": "预览或摘要",
+      "metadata_note": "English title and author spelling checked against the publisher English page."
+    },
+    {
+      "study_id": 17,
+      "authors_year": "Corman and Kecman (2018)",
+      "title": "Stochastic prediction of train delays in real-time using Bayesian networks",
+      "doi": "10.1016/j.trc.2018.08.003",
+      "source_url": "https://doi.org/10.1016/j.trc.2018.08.003",
+      "authors_year_original": "Corman and Kecman (2018)",
+      "title_original": "Stochastic prediction of train delays in real-time using Bayesian networks",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 18,
+      "authors_year": "Ulak et al. (2020)",
+      "title": "Analyzing network-wide patterns of rail transit delays using Bayesian network learning",
+      "doi": "10.1016/j.trc.2020.102749",
+      "source_url": "https://doi.org/10.1016/j.trc.2020.102749",
+      "authors_year_original": "Ulak et al. (2020)",
+      "title_original": "Analyzing network-wide patterns of rail transit delays using Bayesian network learning",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 19,
+      "authors_year": "Dekker et al. (2022)",
+      "title": "Modelling railway delay propagation as diffusion-like spreading",
+      "doi": "10.1140/epjds/s13688-022-00359-1",
+      "source_url": "https://doi.org/10.1140/epjds/s13688-022-00359-1",
+      "authors_year_original": "Dekker et al. (2022)",
+      "title_original": "Modelling railway delay propagation as diffusion-like spreading",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 20,
+      "authors_year": "Ge et al. (2024; online 2023)",
+      "title": "Modelling the cascading effects of train delay patterns and inter-train control actions with Bayesian networks",
+      "doi": "10.1080/23248378.2023.2194304",
+      "source_url": "https://doi.org/10.1080/23248378.2023.2194304",
+      "authors_year_original": "Ge et al. (2024; online 2023)",
+      "title_original": "Modelling the cascading effects of train delay patterns and inter-train control actions with Bayesian networks",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 21,
+      "authors_year": "Daniotti et al. (2024)",
+      "title": "Systemic risk approach to mitigate delay cascading in railway networks",
+      "doi": "10.1038/s44333-024-00012-6",
+      "source_url": "https://doi.org/10.1038/s44333-024-00012-6",
+      "authors_year_original": "Daniotti et al. (2024)",
+      "title_original": "Systemic risk approach to mitigate delay cascading in railway networks",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    },
+    {
+      "study_id": 22,
+      "authors_year": "Xu et al. (2026)",
+      "title": "Multivariate event hypergraph diffusion model for train delay prediction",
+      "doi": "10.1016/j.trc.2025.105390",
+      "source_url": "https://doi.org/10.1016/j.trc.2025.105390",
+      "authors_year_original": "Xu et al. (2026)",
+      "title_original": "Multivariate event hypergraph diffusion model for train delay prediction",
+      "reading_level_original": "全文核查",
+      "metadata_note": "Metadata retained from the author-confirmed project literature set."
+    }
+  ]
+}

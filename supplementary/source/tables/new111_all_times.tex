@@ -2,9 +2,9 @@
 \small
 \setlength{\tabcolsep}{2pt}
 \renewcommand{\arraystretch}{1.13}
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.15cm}>{\centering\arraybackslash}p{1.65cm}>{\centering\arraybackslash}p{1.9cm}>{\centering\arraybackslash}p{1.85cm}>{\centering\arraybackslash}p{1.7cm}>{\centering\arraybackslash}p{1.7cm}@{}}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}>{\raggedright\arraybackslash}p{3.75cm}>{\centering\arraybackslash}p{1.65cm}>{\centering\arraybackslash}p{2.2cm}>{\centering\arraybackslash}p{2.2cm}>{\centering\arraybackslash}p{2.6cm}>{\centering\arraybackslash}p{2.7cm}@{}}
 \toprule
-Strategy / setting / method & Solver time (s) & Prediction-\allowbreak plus-\allowbreak solver time (s) & Complete online time (s) & Solver computation time ratio & Complete online computation time ratio \\
+Strategy / setting / method & Solver time (s) & Prediction-\allowbreak plus-\allowbreak solver time (s) & Complete online time (s) & Solver computational speedup ratio & Complete online computational speedup ratio \\
 \midrule
 \multicolumn{6}{@{}l}{\textit{Training and test scenarios}}\\
 Strategy-2 / FULL & 34.30 & 34.30 & 394.02 & 1.00 & 1.00 \\
@@ -26,5 +26,5 @@ Full-reference / ML & 64.66 & 65.79 & 732.89 & 3.00 & 0.67 \\
 Chained / STAT & 63.48 & 65.56 & 943.78 & 3.06 & 0.52 \\
 Chained / ML & 57.78 & 59.37 & 938.85 & 3.36 & 0.53 \\
 \bottomrule
-\end{tabular}
+\end{tabular*}
 \endgroup

@@ -1,4 +1,4 @@
-# ICROMA: indicator analysis and progressive decision space reduction
+# Learning to Fix Retiming and Reordering Decisions in Railway Timetable Rescheduling
 
 Reproduction materials for the railway rescheduling study on a fixed network and planned timetable. The experiment contains 75 cases for stratified training/testing and 36 cases testing new disruption start times and durations on the same three blockage locations. Each case has eight initial target models, giving 888 initial target solves, plus Strategy-1 reference generation, private bound models and any required full-model refinements.
 
@@ -6,8 +6,9 @@ The release contains executable experiment sources, the original initial inputs,
 
 ## Contents
 
-- [`supplementary/supplementary.pdf`](supplementary/supplementary.pdf): indicator definitions and complete association results.
+- [`supplementary/supplementary.pdf`](supplementary/supplementary.pdf): indicator definitions, retrieved studies, complete association results, computation-time accounting, and prediction architectures and parameter settings.
 - [`supplementary/indicator_catalog_complete.csv`](supplementary/indicator_catalog_complete.csv): all 267 catalog items, including unavailable or constant items, with the reasons they are not estimable.
+- [`supplementary/retrieved_studies.csv`](supplementary/retrieved_studies.csv): the 22 retrieved studies confirmed by the authors as the literature context for constructing the indicator catalog, with source links and original reading-level records.
 - [`results/reports/indicator_associations.csv`](results/reports/indicator_associations.csv): complete machine-readable association responses; join to the catalog by the indicator fields explained in the supplementary material.
 - `results/reports/`: prediction, quality, computation-time, sensitivity and cost tables from the completed experiment. These are archived evidence and are never used as fresh-run target inputs.
 - `data/`: baseline network/timetable, approved case design, case-level cross-validation folds, candidate catalog and the initial inputs for all 111 cases.

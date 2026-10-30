@@ -1,5 +1,5 @@
 {
-  "scope": "Complete upload-folder file hashes, excluding this manifest itself. Computational identity is separately checked by computational_manifest.json.",
+  "scope": "Complete upload-folder hashes, excluding this manifest and generated build/cache directories. Computational identity is separately checked by computational_manifest.json.",
   "files": [
     {
       "path": ".gitattributes",
@@ -272,14 +272,19 @@
       "sha256": "628d64f5ce3d6bacf8fe6cfac1a880a528598a6882acf73972cb2ccb0c19d5a9"
     },
     {
+      "path": "provenance/supplementary_coverage.json",
+      "bytes": 1594,
+      "sha256": "162f7a1b7e42f3f3cb55d0ab771c9527fc3123f1769779aff08f44190406b1bc"
+    },
+    {
       "path": "provenance/supplementary_validation.json",
-      "bytes": 781,
-      "sha256": "df03a89f75e61b449ad82a7e09cbc3b1f58b1881f19f7c9e13115dc08d8eba27"
+      "bytes": 955,
+      "sha256": "a41394c5b141f5245e6aad87fb80760387653d6ca9912517686e078871807f2d"
     },
     {
       "path": "README.md",
-      "bytes": 8575,
-      "sha256": "24641714149709fb0e0ab557619d9a26e98d690283f0c82ca792143d8f2dbd0e"
+      "bytes": 8939,
+      "sha256": "c7ed2a78ff13a1fbc12d540282f237dfd9a5dac07b052f2a77b481b24829b4a1"
     },
     {
       "path": "reproduce.py",
@@ -443,13 +448,23 @@
     },
     {
       "path": "supplementary/README.md",
-      "bytes": 2052,
-      "sha256": "ab7c24d2dc4afc9c55b1ebe9ce22e4bf1dc8e95fb56dc2be2f6df3468766161f"
+      "bytes": 2818,
+      "sha256": "46ce5f59bd2c92a5725edd93dccebb14223a9d06bf9f99000263d2a5528783bd"
+    },
+    {
+      "path": "supplementary/retrieved_studies.csv",
+      "bytes": 7975,
+      "sha256": "b9e152fb6edeeaac6668cfbad3be7135b62f361bcac1df7a2253bd44706df6b5"
+    },
+    {
+      "path": "supplementary/retrieved_studies.json",
+      "bytes": 13640,
+      "sha256": "8259f100083e2d7c7289f39b8a8a247ac5ddb3dd7b53565c0b152e1be8cacccd"
     },
     {
       "path": "supplementary/source/main.tex",
-      "bytes": 1997,
-      "sha256": "21f41dbf55e66aae6cfce19fbfb5a22966294acbe8d3138a14a427875577cbf1"
+      "bytes": 2298,
+      "sha256": "b389105da5743238519b96d5c04e38cb8decf733a2f2d6b34a3e06b217d392a3"
     },
     {
       "path": "supplementary/source/sections/association_results_appendix.tex",
@@ -458,18 +473,23 @@
     },
     {
       "path": "supplementary/source/sections/figure_values.tex",
-      "bytes": 2344,
-      "sha256": "a83ae2d43622a2a8273c2c822b81876ea53ebd43cbe2dcd7cf45480b97feca05"
+      "bytes": 2349,
+      "sha256": "8eeef57369886d9290a993c284d7b26509df59c3a8e4c57bc5286ce6e19408ef"
     },
     {
       "path": "supplementary/source/sections/indicator_appendix.tex",
-      "bytes": 1350,
-      "sha256": "aa57f1aafb66c03f734ccd13495d4195be4a6b4f2135683bb4700a42d9b9a59d"
+      "bytes": 1839,
+      "sha256": "0af73ca6d1d1dec109e576ab4e101b1822bb6a741b0f169ee54d8228c5971b68"
     },
     {
       "path": "supplementary/source/sections/other_catalog_items.tex",
       "bytes": 16272,
       "sha256": "9d4372e5a5c71d99313ce7b639a9449d645307aacd1a3446d6780fe3f8628359"
+    },
+    {
+      "path": "supplementary/source/sections/prediction_settings.tex",
+      "bytes": 4654,
+      "sha256": "ed3c1f222d7fb23290eaa78acb97f8b0b2e30c9291219618ce25f77fa6661b5a"
     },
     {
       "path": "supplementary/source/tables/indicator_register.tex",
@@ -478,13 +498,18 @@
     },
     {
       "path": "supplementary/source/tables/new111_all_times.tex",
-      "bytes": 1725,
-      "sha256": "e0c7c6caf4752c2c1317fac01b0079329117f15b4d6e03258f32f9d70b73827d"
+      "bytes": 1767,
+      "sha256": "429b07f2d2d1f5d4ea9d0dd438537d3a14383153864610f2cd7927b853f924c0"
+    },
+    {
+      "path": "supplementary/source/tables/retrieved_studies.tex",
+      "bytes": 4215,
+      "sha256": "80f5cb482d9edfb8382caf9068d52cc167b3de66f720afe8b9f403ab01252b4a"
     },
     {
       "path": "supplementary/supplementary.pdf",
-      "bytes": 603138,
-      "sha256": "85d04bf5a8727cc6772e74f95bd2a13a5757d7133b201a88eb6ded27b791773c"
+      "bytes": 615456,
+      "sha256": "b3f6d0153536d9a3c604fa2488e9bf49d2b8274d1e5d5aa5670e55e9b1dd72b5"
     }
   ]
 }

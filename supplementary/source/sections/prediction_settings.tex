@@ -1,0 +1,41 @@
+\begingroup
+\paragraph{Common inputs and training.}
+STAT and ML use the same indicators selected within each training fold: up to 24 local indicators and eight scenario indicators per decision type. Within the training data, numerical forms are ranked by the absolute scenario-weighted Spearman association with a decision change. Constant, unavailable and duplicate numerical forms are excluded. Five additional inputs describe the reference value, lower and upper adjustment bounds, and whether a decrease or increase is permitted. Missing values are replaced by training medians. Inputs are standardized using training means and standard deviations, with a missing-value flag for each input. The resulting local and scenario vectors have 58 and 16 entries, respectively; unused positions are zero-padded.
+
+Before accounting for label ambiguity, training gives equal total weight to each scenario--decision-type combination. Labels identified as ambiguous across available equally good timetables receive half weight. Model selection and probability calibration use only the training part of each outer round. Four inner partitions each use 45 training and 15 validation scenarios; the final model uses five inner partitions of 60 and 15 scenarios. The final transfer models use all 75 training and test scenarios and no transfer scenario.
+
+\paragraph{STAT.}
+Each decision type uses a logistic classifier with squared-coefficient regularization. The inverse regularization strength is selected from $\{0.01,0.1,1,10\}$ by inner-validation logarithmic loss. Separate quantile regressions estimate the magnitude of duration shortening and extension at quantiles 0.1, 0.5 and 0.9. Their regularization coefficient is selected from $\{0.001,0.01,0.1\}$ by median quantile loss. Classification uses at most 800 optimization iterations and a convergence tolerance of $10^{-6}$. The predicted magnitude is an auxiliary output and does not constrain the rescheduling model.
+
+\paragraph{ML.}
+For each decision type, the local and scenario input branches have 48 and 16 hidden units, respectively, with rectified linear activation. Their concatenated 64-dimensional representation passes through two shared residual blocks. Each block has layers of width 32 and 64, with rectified linear activation and dropout probability 0.1. Separate action heads predict three duration actions or two order actions. Duration heads also estimate three nondecreasing magnitude quantiles for each direction of change. Training combines action cross-entropy with quantile loss weighted by 0.5. Adam uses a learning rate of 0.001, weight decay of 0.001 and batches of 256 decisions. Inner training allows up to 200 epochs and stops after 20 epochs without validation improvement; the median selected epoch count across inner folds is used to refit on all outer-training scenarios.
+
+\paragraph{Calibration and fixing.}
+For each decision type, a logistic calibration of the unchanged probability is fitted to inner-validation predictions. Change directions excluded by operational bounds have zero probability. Both methods fix the highest-ranked 50\% of eligible variables, with ties resolved by variable identifier. The two Strategy-3 reference settings use the same trained predictor; only their reference timetable inputs and resulting fixing sets differ.
+
+\begin{table}[htbp]
+\centering
+\caption{Selected regularization settings and final training lengths}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcccccc@{}}
+\toprule
+ & \multicolumn{3}{c}{Strategy-2} & \multicolumn{3}{c}{Strategy-3} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Training set & STAT inverse & STAT quantile & ML epochs & STAT inverse & STAT quantile & ML epochs \\
+ & regularization & regularization & & regularization & regularization & \\
+\midrule
+Round 1 & 1 & 0.01 & 62 & 1 & 0.1 & 39 \\
+Round 2 & 1 & 0.01 & 50 & 1 & 0.1 & 43 \\
+Round 3 & 0.1 & 0.01 & 56 & 1 & 0.1 & 29 \\
+Round 4 & 1 & 0.01 & 72 & 0.1 & 0.1 & 58 \\
+Round 5 & 1 & 0.01 & 90 & 0.1 & 0.1 & 37 \\
+Final transfer model & 1 & 0.01 & 55 & 1 & 0.1 & 44 \\
+\bottomrule
+\end{tabular*}
+\par\vspace{3pt}
+\begin{minipage}{\linewidth}\footnotesize
+\textit{Notes:} Rounds 1--5 correspond to the five outer training and test partitions. The final models are trained using all 75 scenarios for frozen transfer prediction. STAT inverse regularization applies to action classification; STAT quantile regularization applies to duration magnitude estimates. ML epochs give the selected training length of the final fit for each partition.
+\end{minipage}
+\end{table}
+\endgroup

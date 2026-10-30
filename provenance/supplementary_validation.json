@@ -1,34 +1,37 @@
 {
   "passed": true,
-  "pages": 228,
+  "pages": 230,
   "catalog_items": 267,
   "estimable_catalog_items": 191,
   "other_catalog_items": 76,
+  "retrieved_studies": 22,
   "estimable_association_responses": 6402,
   "numeric_association_cells_unchanged": true,
+  "prediction_settings_included": true,
+  "revision_markings_removed": true,
   "native_compilation": "success",
   "built_in_compilation": "success",
   "undefined_references": false,
   "overfull_boxes": [],
   "visual_review": {
-    "pages_reviewed": 228,
-    "reviewer_ranges": [
-      [
-        1,
-        72
-      ],
-      [
-        73,
-        112
-      ],
-      [
-        113,
-        228
-      ]
+    "changed_or_boundary_pages_reviewed": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      226,
+      227,
+      228,
+      229,
+      230
     ],
+    "unchanged_text_pages_compared": 221,
+    "prior_complete_visual_audit_pages": 228,
     "unresolved_findings": []
   },
-  "pdf_sha256": "85d04bf5a8727cc6772e74f95bd2a13a5757d7133b201a88eb6ded27b791773c",
+  "pdf_sha256": "b3f6d0153536d9a3c604fa2488e9bf49d2b8274d1e5d5aa5670e55e9b1dd72b5",
   "experiment_executed_for_packaging": false,
   "proprietary_fonts_bundled": false
 }
