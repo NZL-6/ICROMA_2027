@@ -1,0 +1,170 @@
+[
+  {
+    "stage": "A",
+    "fold": 0,
+    "method": "STAT",
+    "seconds": 71.38727750000544,
+    "returncode": 0
+  },
+  {
+    "stage": "A",
+    "fold": 0,
+    "method": "ML",
+    "seconds": 148.5198240000027,
+    "returncode": 0
+  },
+  {
+    "stage": "A",
+    "fold": 1,
+    "method": "STAT",
+    "seconds": 71.63894930000242,
+    "returncode": 0
+  },
+  {
+    "stage": "A",
+    "fold": 1,
+    "method": "ML",
+    "seconds": 130.01362420000078,
+    "returncode": 0
+  },
+  {
+    "stage": "A",
+    "fold": 2,
+    "method": "STAT",
+    "seconds": 71.96005960000184,
+    "returncode": 0
+  },
+  {
+    "stage": "A",
+    "fold": 2,
+    "method": "ML",
+    "seconds": 132.03364670000155,
+    "returncode": 0
+  },
+  {
+    "stage": "A",
+    "fold": 3,
+    "method": "STAT",
+    "seconds": 71.6804403999995,
+    "returncode": 0
+  },
+  {
+    "stage": "A",
+    "fold": 3,
+    "method": "ML",
+    "seconds": 156.4527278999958,
+    "returncode": 0
+  },
+  {
+    "stage": "A",
+    "fold": 4,
+    "method": "STAT",
+    "seconds": 72.66538060000312,
+    "returncode": 0
+  },
+  {
+    "stage": "A",
+    "fold": 4,
+    "method": "ML",
+    "seconds": 167.52297980000003,
+    "returncode": 0
+  },
+  {
+    "stage": "A",
+    "fold": 99,
+    "method": "STAT",
+    "seconds": 88.81020500000159,
+    "returncode": 0
+  },
+  {
+    "stage": "A",
+    "fold": 99,
+    "method": "ML",
+    "seconds": 185.07064900000114,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 0,
+    "method": "STAT",
+    "seconds": 135.34127219999937,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 0,
+    "method": "ML",
+    "seconds": 285.42156539999996,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 1,
+    "method": "STAT",
+    "seconds": 130.4928132000059,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 1,
+    "method": "ML",
+    "seconds": 329.668809099996,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 2,
+    "method": "STAT",
+    "seconds": 132.3335994999943,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 2,
+    "method": "ML",
+    "seconds": 254.51177469999675,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 3,
+    "method": "STAT",
+    "seconds": 169.49023560000205,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 3,
+    "method": "ML",
+    "seconds": 371.4411040999985,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 4,
+    "method": "STAT",
+    "seconds": 134.09885079999367,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 4,
+    "method": "ML",
+    "seconds": 273.6851298000038,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 99,
+    "method": "STAT",
+    "seconds": 183.6154733000003,
+    "returncode": 0
+  },
+  {
+    "stage": "B",
+    "fold": 99,
+    "method": "ML",
+    "seconds": 407.3694189999951,
+    "returncode": 0
+  }
+]

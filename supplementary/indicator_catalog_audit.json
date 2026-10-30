@@ -1,0 +1,41 @@
+{
+  "candidate_count": 267,
+  "estimable_catalog_items": 191,
+  "other_catalog_items": 76,
+  "association_response_count": 6402,
+  "inventory_context_form_records": 13760,
+  "availability_counts": {
+    "estimable": 191,
+    "constant_where_available": 39,
+    "unavailable": 26,
+    "context_not_in_association_inventory": 11
+  },
+  "category_counts": {
+    "Disruption conditions": 90,
+    "Train interactions": 33,
+    "Infrastructure utilization": 47,
+    "Timetable characteristics": 45,
+    "Delay propagation patterns": 52
+  },
+  "all_candidate_ids_preserved": true,
+  "source_hashes": {
+    "experiments\\disruption_generalization_75_36_cpsat12_20261029\\candidate_catalog.json": "2ca0c816ffd693619e632c581c88c40233f0c0cb5adbe04fbccc56dc06a8a3b1",
+    "experiments\\disruption_generalization_75_36_cpsat12_20261029\\reports\\catalog_coverage.json": "26930c52bfd976e3d494eb095d0fe66d97a16dc11fbfbc37eef858bb8a5360bf",
+    "experiments\\disruption_generalization_75_36_cpsat12_20261029\\reports\\indicator_inventory.csv": "5fbe58aa3a5344dcf373440de0f87647fef0813661b6198521c225485817db4b",
+    "experiments\\disruption_generalization_75_36_cpsat12_20261029\\reports\\indicator_associations.csv": "c246ed3929f2e118bf4f66e40bcabcf3c7d7368427d924db6eabbd6493bd54d8",
+    "paper\\conference_disruption_generalization_20261029\\tables\\indicator_register.tex": "c2aaced8a65a539dec439f715e09a252304101cb8cae4e8017afb64701e5d5bb"
+  },
+  "outputs": {
+    "indicator_catalog_complete.csv": "d032be49f77e12816b06a8f2230e57d3aee0d90fc9515fdebfcdfe0887ffa585",
+    "indicator_catalog_complete.json": "5220184526a9ac6daf6d03486d737286f9c95a5b930e567688fe9924c2d361a6",
+    "source\\sections\\other_catalog_items.tex": "9d4372e5a5c71d99313ce7b639a9449d645307aacd1a3446d6780fe3f8628359"
+  },
+  "experiment_modified": false,
+  "experiment_executed": false,
+  "notes": [
+    "Original Chinese definitions are preserved verbatim as historical provenance and may contain earlier pilot-context statements.",
+    "English definitions for the 191 estimable items reuse the current manuscript register; the other 76 definitions translate the underlying measurements without repeating stale pilot design claims.",
+    "Availability follows actual recorded inventory and coverage, not preliminary A/C/X flags.",
+    "The 11 context items have covered feature columns but no records in the descriptive-association inventory; no significance or constant-value claim is inferred for them."
+  ]
+}

@@ -1,0 +1,41 @@
+% !TeX program = xelatex
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\usepackage[italic]{mathastext}
+\usepackage{amssymb,booktabs,array,longtable,graphicx}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\setlength{\emergencystretch}{1em}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\widowpenalty=10000
+\clubpenalty=10000
+\begin{document}
+\begin{center}
+{\Large\bfseries Supplementary material}\\[8pt]
+{\large Indicator-Guided Variable Fixing for Train Timetable Rescheduling}
+\end{center}
+This document accompanies the manuscript and its reproducibility repository.
+Sections S1 and S4 together define all 267 candidate catalog items: S1 covers the 191 items with at least one estimable, nonconstant numerical form, while S4 records the remaining items and why no association is reported.
+Section S3 preserves all 6,402 estimable association responses without a significance filter, together with prediction-input selection frequencies.
+Section S2 gives the complete computation-time accounting.
+The archived machine-readable results accompany this document; unavailable or constant indicators are not assigned fabricated correlations.
+The study uses 75 training and test scenarios and 36 transfer scenarios on one railway network and one planned timetable.
+\tableofcontents
+\clearpage
+\section{Computable, nonconstant indicator definitions}
+\label{app:indicators}
+\input{sections/indicator_appendix}
+\clearpage
+\section{Computation time by comparison setting}
+\label{app:computation}
+\input{sections/figure_values}
+\clearpage
+\section{Complete indicator associations and input selection}
+\input{sections/association_results_appendix}
+\clearpage
+\section{Other catalog items and association availability}
+\label{supp:other-indicators}
+\input{sections/other_catalog_items}
+\end{document}

@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-30",
+  "method": "Read published distribution metadata only; no install or solve",
+  "ortools": {
+    "metadata_url": "https://pypi.org/pypi/ortools/9.15.6755/json",
+    "version": "9.15.6755",
+    "requires_python": ">=3.9",
+    "requires_dist": [
+      "absl-py>=2.0.0",
+      "numpy>=2.0.2",
+      "pandas>=2.0.0",
+      "protobuf<6.34,>=6.33.1",
+      "typing-extensions>=4.12",
+      "immutabledict>=3.0.0"
+    ],
+    "cp312_windows": [
+      {
+        "filename": "ortools-9.15.6755-cp312-cp312-win_amd64.whl",
+        "url": "https://files.pythonhosted.org/packages/83/a2/5aaf12e34bcd47ae16e70ae81b5c7fbc209da0615c0b79a93c9a0b1cda02/ortools-9.15.6755-cp312-cp312-win_amd64.whl",
+        "sha256": "487796301fd9dad55f9cf21f9313c834697f74306d1a59f002e152862f8eb1b5"
+      }
+    ]
+  },
+  "torch_cpu_index": "https://download.pytorch.org/whl/cpu"
+}

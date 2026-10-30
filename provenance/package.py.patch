@@ -1,0 +1,11 @@
+--- original/package.py
++++ release/package.py
+@@ -3,7 +3,7 @@
+ from common import *
+ def main():
+     assert read(ROOT/'final_validation.json')['passed']
+-    out=WORK/'output/disruption_generalization_75_36_20261029';out.mkdir(parents=True,exist_ok=True)
++    out=ROOT.parent/(ROOT.name+'_evidence');out.mkdir(parents=True,exist_ok=True)
+     shutil.copytree(ROOT/'reports',out/'reports',dirs_exist_ok=True)
+     for name in ['REPORT.md','README.md','protocol.json','completion.json','final_validation.json','case_manifest.json','folds.json','phase_ledger.json','training_costs.json','source_lock.json','execution_lock.json','model_lock.json']:
+         if (ROOT/name).exists():shutil.copy2(ROOT/name,out/name)

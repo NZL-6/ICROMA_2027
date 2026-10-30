@@ -1,0 +1,6 @@
+# Install with --no-deps --target .solver_deps. Do not install into learning env.
+ortools==9.15.6755
+numpy==2.2.6
+pandas==2.2.3
+protobuf==6.33.6
+immutabledict==4.3.1

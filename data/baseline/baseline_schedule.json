@@ -1,0 +1,2345 @@
+{
+  "schedule": {
+    "FF11": [
+      {
+        "station": "U11",
+        "arrival": 0,
+        "departure": 0,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U12",
+        "arrival": 4,
+        "departure": 4,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "U13",
+        "arrival": 8,
+        "departure": 10,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H1",
+        "arrival": 14,
+        "departure": 14,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "C",
+        "arrival": 18,
+        "departure": 20,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H2",
+        "arrival": 24,
+        "departure": 24,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D11",
+        "arrival": 28,
+        "departure": 30,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "D12",
+        "arrival": 34,
+        "departure": 34,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D13",
+        "arrival": 38,
+        "departure": 38,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FF22": [
+      {
+        "station": "U21",
+        "arrival": 2,
+        "departure": 2,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U22",
+        "arrival": 6,
+        "departure": 6,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "U23",
+        "arrival": 10,
+        "departure": 12,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H1",
+        "arrival": 16,
+        "departure": 16,
+        "stop": 0,
+        "track": "F2"
+      },
+      {
+        "station": "C",
+        "arrival": 20,
+        "departure": 22,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H2",
+        "arrival": 26,
+        "departure": 26,
+        "stop": 0,
+        "track": "F2"
+      },
+      {
+        "station": "D21",
+        "arrival": 30,
+        "departure": 32,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "D22",
+        "arrival": 36,
+        "departure": 36,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D23",
+        "arrival": 40,
+        "departure": 40,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RF11": [
+      {
+        "station": "D13",
+        "arrival": 2,
+        "departure": 2,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D12",
+        "arrival": 6,
+        "departure": 6,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "D11",
+        "arrival": 10,
+        "departure": 12,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H2",
+        "arrival": 16,
+        "departure": 16,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "C",
+        "arrival": 20,
+        "departure": 22,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H1",
+        "arrival": 26,
+        "departure": 26,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U13",
+        "arrival": 30,
+        "departure": 32,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "U12",
+        "arrival": 36,
+        "departure": 36,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U11",
+        "arrival": 40,
+        "departure": 40,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FF33": [
+      {
+        "station": "U31",
+        "arrival": 4,
+        "departure": 4,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U32",
+        "arrival": 8,
+        "departure": 8,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "U33",
+        "arrival": 12,
+        "departure": 14,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H1",
+        "arrival": 18,
+        "departure": 18,
+        "stop": 0,
+        "track": "F3"
+      },
+      {
+        "station": "C",
+        "arrival": 22,
+        "departure": 24,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H2",
+        "arrival": 28,
+        "departure": 28,
+        "stop": 0,
+        "track": "F3"
+      },
+      {
+        "station": "D31",
+        "arrival": 32,
+        "departure": 34,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "D32",
+        "arrival": 38,
+        "departure": 38,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D33",
+        "arrival": 42,
+        "departure": 42,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RF22": [
+      {
+        "station": "D23",
+        "arrival": 4,
+        "departure": 4,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D22",
+        "arrival": 8,
+        "departure": 8,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "D21",
+        "arrival": 12,
+        "departure": 14,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H2",
+        "arrival": 18,
+        "departure": 18,
+        "stop": 0,
+        "track": "R2"
+      },
+      {
+        "station": "C",
+        "arrival": 22,
+        "departure": 24,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H1",
+        "arrival": 28,
+        "departure": 28,
+        "stop": 0,
+        "track": "R2"
+      },
+      {
+        "station": "U23",
+        "arrival": 32,
+        "departure": 34,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "U22",
+        "arrival": 38,
+        "departure": 38,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U21",
+        "arrival": 42,
+        "departure": 42,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RF33": [
+      {
+        "station": "D33",
+        "arrival": 6,
+        "departure": 6,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D32",
+        "arrival": 10,
+        "departure": 10,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "D31",
+        "arrival": 14,
+        "departure": 16,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H2",
+        "arrival": 20,
+        "departure": 20,
+        "stop": 0,
+        "track": "R3"
+      },
+      {
+        "station": "C",
+        "arrival": 24,
+        "departure": 26,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H1",
+        "arrival": 30,
+        "departure": 30,
+        "stop": 0,
+        "track": "R3"
+      },
+      {
+        "station": "U33",
+        "arrival": 34,
+        "departure": 36,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "U32",
+        "arrival": 40,
+        "departure": 40,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U31",
+        "arrival": 44,
+        "departure": 44,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FS11": [
+      {
+        "station": "U11",
+        "arrival": 8,
+        "departure": 8,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U12",
+        "arrival": 14,
+        "departure": 16,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "U13",
+        "arrival": 22,
+        "departure": 24,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H1",
+        "arrival": 30,
+        "departure": 32,
+        "stop": 1,
+        "track": "F4"
+      },
+      {
+        "station": "C",
+        "arrival": 38,
+        "departure": 40,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H2",
+        "arrival": 46,
+        "departure": 48,
+        "stop": 1,
+        "track": "F4"
+      },
+      {
+        "station": "D11",
+        "arrival": 54,
+        "departure": 56,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D12",
+        "arrival": 62,
+        "departure": 64,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D13",
+        "arrival": 70,
+        "departure": 70,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FS22": [
+      {
+        "station": "U21",
+        "arrival": 10,
+        "departure": 10,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U22",
+        "arrival": 16,
+        "departure": 18,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "U23",
+        "arrival": 24,
+        "departure": 26,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H1",
+        "arrival": 32,
+        "departure": 34,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "C",
+        "arrival": 40,
+        "departure": 42,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H2",
+        "arrival": 48,
+        "departure": 50,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "D21",
+        "arrival": 56,
+        "departure": 58,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D22",
+        "arrival": 64,
+        "departure": 66,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D23",
+        "arrival": 72,
+        "departure": 72,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RS11": [
+      {
+        "station": "D13",
+        "arrival": 10,
+        "departure": 10,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D12",
+        "arrival": 16,
+        "departure": 18,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "D11",
+        "arrival": 24,
+        "departure": 26,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H2",
+        "arrival": 32,
+        "departure": 34,
+        "stop": 1,
+        "track": "R4"
+      },
+      {
+        "station": "C",
+        "arrival": 40,
+        "departure": 42,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H1",
+        "arrival": 48,
+        "departure": 50,
+        "stop": 1,
+        "track": "R4"
+      },
+      {
+        "station": "U13",
+        "arrival": 56,
+        "departure": 58,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U12",
+        "arrival": 64,
+        "departure": 66,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U11",
+        "arrival": 72,
+        "departure": 72,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FS33": [
+      {
+        "station": "U31",
+        "arrival": 12,
+        "departure": 12,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U32",
+        "arrival": 18,
+        "departure": 20,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "U33",
+        "arrival": 26,
+        "departure": 28,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H1",
+        "arrival": 34,
+        "departure": 36,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "C",
+        "arrival": 42,
+        "departure": 44,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H2",
+        "arrival": 50,
+        "departure": 52,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D31",
+        "arrival": 58,
+        "departure": 60,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D32",
+        "arrival": 66,
+        "departure": 68,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D33",
+        "arrival": 74,
+        "departure": 74,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RS22": [
+      {
+        "station": "D23",
+        "arrival": 12,
+        "departure": 12,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D22",
+        "arrival": 18,
+        "departure": 20,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "D21",
+        "arrival": 26,
+        "departure": 28,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H2",
+        "arrival": 34,
+        "departure": 36,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "C",
+        "arrival": 42,
+        "departure": 44,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H1",
+        "arrival": 50,
+        "departure": 52,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "U23",
+        "arrival": 58,
+        "departure": 60,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U22",
+        "arrival": 66,
+        "departure": 68,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U21",
+        "arrival": 74,
+        "departure": 74,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RS33": [
+      {
+        "station": "D33",
+        "arrival": 14,
+        "departure": 14,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D32",
+        "arrival": 20,
+        "departure": 22,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "D31",
+        "arrival": 28,
+        "departure": 30,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H2",
+        "arrival": 36,
+        "departure": 38,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "C",
+        "arrival": 44,
+        "departure": 46,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H1",
+        "arrival": 52,
+        "departure": 54,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U33",
+        "arrival": 60,
+        "departure": 62,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U32",
+        "arrival": 68,
+        "departure": 70,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U31",
+        "arrival": 76,
+        "departure": 76,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FF12": [
+      {
+        "station": "U11",
+        "arrival": 40,
+        "departure": 40,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U12",
+        "arrival": 44,
+        "departure": 44,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "U13",
+        "arrival": 48,
+        "departure": 50,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H1",
+        "arrival": 54,
+        "departure": 54,
+        "stop": 0,
+        "track": "F3"
+      },
+      {
+        "station": "C",
+        "arrival": 58,
+        "departure": 60,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H2",
+        "arrival": 64,
+        "departure": 64,
+        "stop": 0,
+        "track": "F3"
+      },
+      {
+        "station": "D21",
+        "arrival": 68,
+        "departure": 70,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "D22",
+        "arrival": 74,
+        "departure": 74,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D23",
+        "arrival": 78,
+        "departure": 78,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FF23": [
+      {
+        "station": "U21",
+        "arrival": 42,
+        "departure": 42,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U22",
+        "arrival": 46,
+        "departure": 46,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "U23",
+        "arrival": 50,
+        "departure": 52,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H1",
+        "arrival": 56,
+        "departure": 56,
+        "stop": 0,
+        "track": "F4"
+      },
+      {
+        "station": "C",
+        "arrival": 60,
+        "departure": 62,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H2",
+        "arrival": 66,
+        "departure": 66,
+        "stop": 0,
+        "track": "F4"
+      },
+      {
+        "station": "D31",
+        "arrival": 70,
+        "departure": 72,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "D32",
+        "arrival": 76,
+        "departure": 76,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D33",
+        "arrival": 80,
+        "departure": 80,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RF31": [
+      {
+        "station": "D13",
+        "arrival": 42,
+        "departure": 42,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D12",
+        "arrival": 46,
+        "departure": 46,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "D11",
+        "arrival": 50,
+        "departure": 52,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H2",
+        "arrival": 56,
+        "departure": 56,
+        "stop": 0,
+        "track": "R3"
+      },
+      {
+        "station": "C",
+        "arrival": 60,
+        "departure": 62,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H1",
+        "arrival": 66,
+        "departure": 66,
+        "stop": 0,
+        "track": "R3"
+      },
+      {
+        "station": "U33",
+        "arrival": 70,
+        "departure": 72,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "U32",
+        "arrival": 76,
+        "departure": 76,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U31",
+        "arrival": 80,
+        "departure": 80,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FF31": [
+      {
+        "station": "U31",
+        "arrival": 44,
+        "departure": 44,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U32",
+        "arrival": 48,
+        "departure": 48,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "U33",
+        "arrival": 52,
+        "departure": 54,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H1",
+        "arrival": 58,
+        "departure": 58,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "C",
+        "arrival": 62,
+        "departure": 64,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H2",
+        "arrival": 68,
+        "departure": 68,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D11",
+        "arrival": 72,
+        "departure": 74,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "D12",
+        "arrival": 78,
+        "departure": 78,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D13",
+        "arrival": 82,
+        "departure": 82,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RF12": [
+      {
+        "station": "D23",
+        "arrival": 44,
+        "departure": 44,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D22",
+        "arrival": 48,
+        "departure": 48,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "D21",
+        "arrival": 52,
+        "departure": 54,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H2",
+        "arrival": 58,
+        "departure": 58,
+        "stop": 0,
+        "track": "R4"
+      },
+      {
+        "station": "C",
+        "arrival": 62,
+        "departure": 64,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H1",
+        "arrival": 68,
+        "departure": 68,
+        "stop": 0,
+        "track": "R4"
+      },
+      {
+        "station": "U13",
+        "arrival": 72,
+        "departure": 74,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "U12",
+        "arrival": 78,
+        "departure": 78,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U11",
+        "arrival": 82,
+        "departure": 82,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RF23": [
+      {
+        "station": "D33",
+        "arrival": 46,
+        "departure": 46,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D32",
+        "arrival": 50,
+        "departure": 50,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "D31",
+        "arrival": 54,
+        "departure": 56,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H2",
+        "arrival": 60,
+        "departure": 60,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "C",
+        "arrival": 64,
+        "departure": 66,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H1",
+        "arrival": 70,
+        "departure": 70,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U23",
+        "arrival": 74,
+        "departure": 76,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "U22",
+        "arrival": 80,
+        "departure": 80,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U21",
+        "arrival": 84,
+        "departure": 84,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FS12": [
+      {
+        "station": "U11",
+        "arrival": 48,
+        "departure": 48,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U12",
+        "arrival": 54,
+        "departure": 56,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "U13",
+        "arrival": 62,
+        "departure": 64,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H1",
+        "arrival": 70,
+        "departure": 72,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "C",
+        "arrival": 78,
+        "departure": 80,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H2",
+        "arrival": 86,
+        "departure": 88,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D21",
+        "arrival": 94,
+        "departure": 96,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D22",
+        "arrival": 102,
+        "departure": 104,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D23",
+        "arrival": 110,
+        "departure": 110,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FS23": [
+      {
+        "station": "U21",
+        "arrival": 50,
+        "departure": 50,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U22",
+        "arrival": 56,
+        "departure": 58,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "U23",
+        "arrival": 64,
+        "departure": 66,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H1",
+        "arrival": 72,
+        "departure": 74,
+        "stop": 1,
+        "track": "F3"
+      },
+      {
+        "station": "C",
+        "arrival": 80,
+        "departure": 82,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H2",
+        "arrival": 88,
+        "departure": 90,
+        "stop": 1,
+        "track": "F3"
+      },
+      {
+        "station": "D31",
+        "arrival": 96,
+        "departure": 98,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D32",
+        "arrival": 104,
+        "departure": 106,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D33",
+        "arrival": 112,
+        "departure": 112,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RS31": [
+      {
+        "station": "D13",
+        "arrival": 50,
+        "departure": 50,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D12",
+        "arrival": 56,
+        "departure": 58,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "D11",
+        "arrival": 64,
+        "departure": 66,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H2",
+        "arrival": 72,
+        "departure": 74,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "C",
+        "arrival": 80,
+        "departure": 82,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H1",
+        "arrival": 88,
+        "departure": 90,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U33",
+        "arrival": 96,
+        "departure": 98,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U32",
+        "arrival": 104,
+        "departure": 106,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U31",
+        "arrival": 112,
+        "departure": 112,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FS31": [
+      {
+        "station": "U31",
+        "arrival": 52,
+        "departure": 52,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U32",
+        "arrival": 58,
+        "departure": 60,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "U33",
+        "arrival": 66,
+        "departure": 68,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H1",
+        "arrival": 74,
+        "departure": 76,
+        "stop": 1,
+        "track": "F4"
+      },
+      {
+        "station": "C",
+        "arrival": 82,
+        "departure": 84,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H2",
+        "arrival": 90,
+        "departure": 92,
+        "stop": 1,
+        "track": "F4"
+      },
+      {
+        "station": "D11",
+        "arrival": 98,
+        "departure": 100,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D12",
+        "arrival": 106,
+        "departure": 108,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D13",
+        "arrival": 114,
+        "departure": 114,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RS12": [
+      {
+        "station": "D23",
+        "arrival": 52,
+        "departure": 52,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D22",
+        "arrival": 58,
+        "departure": 60,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "D21",
+        "arrival": 66,
+        "departure": 68,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H2",
+        "arrival": 74,
+        "departure": 76,
+        "stop": 1,
+        "track": "R3"
+      },
+      {
+        "station": "C",
+        "arrival": 82,
+        "departure": 84,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H1",
+        "arrival": 90,
+        "departure": 92,
+        "stop": 1,
+        "track": "R3"
+      },
+      {
+        "station": "U13",
+        "arrival": 98,
+        "departure": 100,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U12",
+        "arrival": 106,
+        "departure": 108,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U11",
+        "arrival": 114,
+        "departure": 114,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RS23": [
+      {
+        "station": "D33",
+        "arrival": 54,
+        "departure": 54,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D32",
+        "arrival": 60,
+        "departure": 62,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "D31",
+        "arrival": 68,
+        "departure": 70,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H2",
+        "arrival": 76,
+        "departure": 78,
+        "stop": 1,
+        "track": "R4"
+      },
+      {
+        "station": "C",
+        "arrival": 84,
+        "departure": 86,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H1",
+        "arrival": 92,
+        "departure": 94,
+        "stop": 1,
+        "track": "R4"
+      },
+      {
+        "station": "U23",
+        "arrival": 100,
+        "departure": 102,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U22",
+        "arrival": 108,
+        "departure": 110,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U21",
+        "arrival": 116,
+        "departure": 116,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FF13": [
+      {
+        "station": "U11",
+        "arrival": 80,
+        "departure": 80,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U12",
+        "arrival": 84,
+        "departure": 84,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "U13",
+        "arrival": 88,
+        "departure": 90,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H1",
+        "arrival": 94,
+        "departure": 94,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "C",
+        "arrival": 98,
+        "departure": 100,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H2",
+        "arrival": 104,
+        "departure": 104,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D31",
+        "arrival": 108,
+        "departure": 110,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "D32",
+        "arrival": 114,
+        "departure": 114,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D33",
+        "arrival": 118,
+        "departure": 118,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FF21": [
+      {
+        "station": "U21",
+        "arrival": 82,
+        "departure": 82,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U22",
+        "arrival": 86,
+        "departure": 86,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "U23",
+        "arrival": 90,
+        "departure": 92,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H1",
+        "arrival": 96,
+        "departure": 96,
+        "stop": 0,
+        "track": "F2"
+      },
+      {
+        "station": "C",
+        "arrival": 100,
+        "departure": 102,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H2",
+        "arrival": 106,
+        "departure": 106,
+        "stop": 0,
+        "track": "F2"
+      },
+      {
+        "station": "D11",
+        "arrival": 110,
+        "departure": 112,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "D12",
+        "arrival": 116,
+        "departure": 116,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D13",
+        "arrival": 120,
+        "departure": 120,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RF21": [
+      {
+        "station": "D13",
+        "arrival": 82,
+        "departure": 82,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D12",
+        "arrival": 86,
+        "departure": 86,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "D11",
+        "arrival": 90,
+        "departure": 92,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H2",
+        "arrival": 96,
+        "departure": 96,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "C",
+        "arrival": 100,
+        "departure": 102,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H1",
+        "arrival": 106,
+        "departure": 106,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U23",
+        "arrival": 110,
+        "departure": 112,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "U22",
+        "arrival": 116,
+        "departure": 116,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U21",
+        "arrival": 120,
+        "departure": 120,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FF32": [
+      {
+        "station": "U31",
+        "arrival": 84,
+        "departure": 84,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U32",
+        "arrival": 88,
+        "departure": 88,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "U33",
+        "arrival": 92,
+        "departure": 94,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H1",
+        "arrival": 98,
+        "departure": 98,
+        "stop": 0,
+        "track": "F3"
+      },
+      {
+        "station": "C",
+        "arrival": 102,
+        "departure": 104,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H2",
+        "arrival": 108,
+        "departure": 108,
+        "stop": 0,
+        "track": "F3"
+      },
+      {
+        "station": "D21",
+        "arrival": 112,
+        "departure": 114,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "D22",
+        "arrival": 118,
+        "departure": 118,
+        "stop": 0,
+        "track": "F1"
+      },
+      {
+        "station": "D23",
+        "arrival": 122,
+        "departure": 122,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RF32": [
+      {
+        "station": "D23",
+        "arrival": 84,
+        "departure": 84,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D22",
+        "arrival": 88,
+        "departure": 88,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "D21",
+        "arrival": 92,
+        "departure": 94,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H2",
+        "arrival": 98,
+        "departure": 98,
+        "stop": 0,
+        "track": "R2"
+      },
+      {
+        "station": "C",
+        "arrival": 102,
+        "departure": 104,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H1",
+        "arrival": 108,
+        "departure": 108,
+        "stop": 0,
+        "track": "R2"
+      },
+      {
+        "station": "U33",
+        "arrival": 112,
+        "departure": 114,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "U32",
+        "arrival": 118,
+        "departure": 118,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U31",
+        "arrival": 122,
+        "departure": 122,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RF13": [
+      {
+        "station": "D33",
+        "arrival": 86,
+        "departure": 86,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D32",
+        "arrival": 90,
+        "departure": 90,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "D31",
+        "arrival": 94,
+        "departure": 96,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H2",
+        "arrival": 100,
+        "departure": 100,
+        "stop": 0,
+        "track": "R3"
+      },
+      {
+        "station": "C",
+        "arrival": 104,
+        "departure": 106,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H1",
+        "arrival": 110,
+        "departure": 110,
+        "stop": 0,
+        "track": "R3"
+      },
+      {
+        "station": "U13",
+        "arrival": 114,
+        "departure": 116,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "U12",
+        "arrival": 120,
+        "departure": 120,
+        "stop": 0,
+        "track": "R1"
+      },
+      {
+        "station": "U11",
+        "arrival": 124,
+        "departure": 124,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FS13": [
+      {
+        "station": "U11",
+        "arrival": 88,
+        "departure": 88,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U12",
+        "arrival": 94,
+        "departure": 96,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "U13",
+        "arrival": 102,
+        "departure": 104,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H1",
+        "arrival": 110,
+        "departure": 112,
+        "stop": 1,
+        "track": "F4"
+      },
+      {
+        "station": "C",
+        "arrival": 118,
+        "departure": 120,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H2",
+        "arrival": 126,
+        "departure": 128,
+        "stop": 1,
+        "track": "F4"
+      },
+      {
+        "station": "D31",
+        "arrival": 134,
+        "departure": 136,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D32",
+        "arrival": 142,
+        "departure": 144,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D33",
+        "arrival": 150,
+        "departure": 150,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FS21": [
+      {
+        "station": "U21",
+        "arrival": 90,
+        "departure": 90,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U22",
+        "arrival": 96,
+        "departure": 98,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "U23",
+        "arrival": 104,
+        "departure": 106,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H1",
+        "arrival": 112,
+        "departure": 114,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "C",
+        "arrival": 120,
+        "departure": 122,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "H2",
+        "arrival": 128,
+        "departure": 130,
+        "stop": 1,
+        "track": "F1"
+      },
+      {
+        "station": "D11",
+        "arrival": 136,
+        "departure": 138,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D12",
+        "arrival": 144,
+        "departure": 146,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D13",
+        "arrival": 152,
+        "departure": 152,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RS21": [
+      {
+        "station": "D13",
+        "arrival": 90,
+        "departure": 90,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D12",
+        "arrival": 96,
+        "departure": 98,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "D11",
+        "arrival": 104,
+        "departure": 106,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H2",
+        "arrival": 112,
+        "departure": 114,
+        "stop": 1,
+        "track": "R4"
+      },
+      {
+        "station": "C",
+        "arrival": 120,
+        "departure": 122,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H1",
+        "arrival": 128,
+        "departure": 130,
+        "stop": 1,
+        "track": "R4"
+      },
+      {
+        "station": "U23",
+        "arrival": 136,
+        "departure": 138,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U22",
+        "arrival": 144,
+        "departure": 146,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U21",
+        "arrival": 152,
+        "departure": 152,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "FS32": [
+      {
+        "station": "U31",
+        "arrival": 92,
+        "departure": 92,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "U32",
+        "arrival": 98,
+        "departure": 100,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "U33",
+        "arrival": 106,
+        "departure": 108,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H1",
+        "arrival": 114,
+        "departure": 116,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "C",
+        "arrival": 122,
+        "departure": 124,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "H2",
+        "arrival": 130,
+        "departure": 132,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D21",
+        "arrival": 138,
+        "departure": 140,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D22",
+        "arrival": 146,
+        "departure": 148,
+        "stop": 1,
+        "track": "F2"
+      },
+      {
+        "station": "D23",
+        "arrival": 154,
+        "departure": 154,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RS32": [
+      {
+        "station": "D23",
+        "arrival": 92,
+        "departure": 92,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D22",
+        "arrival": 98,
+        "departure": 100,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "D21",
+        "arrival": 106,
+        "departure": 108,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H2",
+        "arrival": 114,
+        "departure": 116,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "C",
+        "arrival": 122,
+        "departure": 124,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "H1",
+        "arrival": 130,
+        "departure": 132,
+        "stop": 1,
+        "track": "R1"
+      },
+      {
+        "station": "U33",
+        "arrival": 138,
+        "departure": 140,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U32",
+        "arrival": 146,
+        "departure": 148,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U31",
+        "arrival": 154,
+        "departure": 154,
+        "stop": 0,
+        "track": null
+      }
+    ],
+    "RS13": [
+      {
+        "station": "D33",
+        "arrival": 94,
+        "departure": 94,
+        "stop": 0,
+        "track": null
+      },
+      {
+        "station": "D32",
+        "arrival": 100,
+        "departure": 102,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "D31",
+        "arrival": 108,
+        "departure": 110,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H2",
+        "arrival": 116,
+        "departure": 118,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "C",
+        "arrival": 124,
+        "departure": 126,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "H1",
+        "arrival": 132,
+        "departure": 134,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U13",
+        "arrival": 140,
+        "departure": 142,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U12",
+        "arrival": 148,
+        "departure": 150,
+        "stop": 1,
+        "track": "R2"
+      },
+      {
+        "station": "U11",
+        "arrival": 156,
+        "departure": 156,
+        "stop": 0,
+        "track": null
+      }
+    ]
+  },
+  "objective": 0
+}

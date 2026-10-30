@@ -1,0 +1,199 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "stage": "A",
+      "fold": 0,
+      "method": "STAT",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "A",
+      "fold": 0,
+      "method": "ML",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "A",
+      "fold": 1,
+      "method": "STAT",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "A",
+      "fold": 1,
+      "method": "ML",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "A",
+      "fold": 2,
+      "method": "STAT",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "A",
+      "fold": 2,
+      "method": "ML",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "A",
+      "fold": 3,
+      "method": "STAT",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "A",
+      "fold": 3,
+      "method": "ML",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "A",
+      "fold": 4,
+      "method": "STAT",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "A",
+      "fold": 4,
+      "method": "ML",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "A",
+      "fold": 99,
+      "method": "STAT",
+      "train_cases": 75,
+      "test_cases": 0,
+      "passed": true
+    },
+    {
+      "stage": "A",
+      "fold": 99,
+      "method": "ML",
+      "train_cases": 75,
+      "test_cases": 0,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 0,
+      "method": "STAT",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 0,
+      "method": "ML",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 1,
+      "method": "STAT",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 1,
+      "method": "ML",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 2,
+      "method": "STAT",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 2,
+      "method": "ML",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 3,
+      "method": "STAT",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 3,
+      "method": "ML",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 4,
+      "method": "STAT",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 4,
+      "method": "ML",
+      "train_cases": 60,
+      "test_cases": 15,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 99,
+      "method": "STAT",
+      "train_cases": 75,
+      "test_cases": 0,
+      "passed": true
+    },
+    {
+      "stage": "B",
+      "fold": 99,
+      "method": "ML",
+      "train_cases": 75,
+      "test_cases": 0,
+      "passed": true
+    }
+  ],
+  "models": 24,
+  "test_case_record_isolation": true
+}

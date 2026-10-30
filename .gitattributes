@@ -1,0 +1,2 @@
+# Preserve archived hashes on every platform, including Windows core.autocrlf.
+* -text

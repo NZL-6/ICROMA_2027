@@ -1,0 +1,185 @@
+Together with Section~\ref{app:indicators}, this section completes the 267-item candidate catalog. The 76 items below have no reported association: 39 have only constant forms where defined, 26 cannot be calculated with the available model and data, and 11 describe operating-state, strategy, or experiment context but are absent from the descriptive-association inventory. The complete estimable results for the other 191 items are retained in Section~\ref{app:association-results}.
+
+An unavailable or constant association is not a zero correlation. Missing or inapplicable values are not replaced by zero. The availability classification below follows the recorded numerical inventory and model coverage, not the preliminary catalog flags. Definitions retain the intended measurement, while references to the present design describe the current experiment. For context items, the absence of an estimated association does not imply that the quantity is irrelevant to model construction.
+
+\begingroup\small\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.07}
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.7cm}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{8.6cm}>{\raggedright\arraybackslash}p{1.9cm}@{}}
+
+\caption{Remaining candidate indicator definitions and association availability}\label{tab:other-indicators}\\
+
+\toprule Code & Indicator & Definition & Availability \\ \midrule\endfirsthead
+
+\multicolumn{4}{l}{\textit{Table \thetable\ continued}}\\
+
+\toprule Code & Indicator & Definition & Availability \\ \midrule\endhead
+
+\midrule\multicolumn{4}{r}{\textit{Continued on next page}}\\\endfoot\bottomrule
+
+\multicolumn{4}{@{}p{15cm}@{}}{\footnotesize\textit{Notes:} Constant: every available numerical form is constant within its analysis context. Unavailable: the model or data do not provide a computable form. Context only: recorded as model or experiment context, without an estimate in the descriptive-association inventory. These categories never imply a correlation of zero. The companion complete catalog file preserves original names/definitions and links each estimable item to its numerical results.}\\\endlastfoot
+
+\multicolumn{4}{@{}l}{\textbf{Disruption conditions}}\\*[2pt]
+
+D06 & Decision delay after blockage start & Elapsed time between blockage start and the decision time; zero at the initial decision. & Constant \\
+
+D07 & Elapsed blockage duration at decision & The nonnegative elapsed time since blockage start at the decision time; zero at the initial decision. & Constant \\
+
+D12 & Disrupted facility type & Type of unavailable facility, such as a section track, station track, or station throat; only section running resources are closed here. & Constant \\
+
+D13 & Disruption cause & The recorded cause of the disruption, such as equipment, power, weather, or an accident. No cause records are available. & Unavailable \\
+
+D14 & Number of blocked sections & Number of physical sections closed simultaneously; one in this design. & Constant \\
+
+D15 & Blocked directions & The number and combination of closed directions; both directions of one section are closed here. & Constant \\
+
+D16 & Unavailable running resources & Number of closed directional section-running resources; two here. & Constant \\
+
+D17 & Unavailable station tracks & Number of station tracks directly closed by the disruption; zero here. & Constant \\
+
+D18 & Direct capacity-loss fraction & Unavailable capacity divided by capacity of the same compatible resource pool; the blocked directional running resources lose all capacity here. & Constant \\
+
+D19 & Residual capacity during blockage & The fraction of compatible capacity still usable in a blocked resource pool; zero for the blocked running resources here. & Constant \\
+
+D21 & Number of recovery stages & Number of separate capacity-restoration stages; a single reopening is assumed. & Constant \\
+
+D22 & Capacity-recovery profile & Available resource capacity over the recovery stages; represented here by a single-step recovery indicator. & Constant \\
+
+D23 & Post-reopening restrictions & Additional speed restrictions or headways after reopening; none are imposed here. & Constant \\
+
+D24 & Opposite-direction track use & Whether a train may use the opposite-direction track; this is prohibited here. & Constant \\
+
+D25 & Number of simultaneous disruptions & Number of concurrent disruptions; one in this design. & Constant \\
+
+D26 & Spatial relationship between disruptions & Distance or spatial overlap between multiple disrupted facilities. It is not applicable to the single-disruption design. & Unavailable \\
+
+D27 & Temporal overlap between disruptions & Duration or fraction of overlap between multiple blockage windows. It is not applicable to the single-disruption design. & Unavailable \\
+
+D28 & Overlap with maintenance closures & Overlap of the disruption with maintenance or other resource closures; requires additional closure records. & Unavailable \\
+
+D29 & Overlap with external service constraints & Overlap with connection requirements, boundary acceptance restrictions, or other external service constraints; requires those records. & Unavailable \\
+
+E22 & Trains still inside the blocked section & Number of trains that have not cleared the section at blockage start; zero because the selected start times have an empty section in both directions. & Constant \\
+
+E24 & Pre-existing delay indicator & Whether any train is already delayed before blockage start; the initial operating state follows the planned timetable here. & Constant \\
+
+E25 & Pre-existing delay distribution & Distribution of train delays before blockage start, distinct from delays in the subsequent reference timetable; zero here. & Constant \\
+
+I01 & Advance warning time & Time between receiving a disruption warning and the disruption start; actual notification records are unavailable. & Unavailable \\
+
+I02 & Detection or reporting delay & Time from the occurrence of a fault until confirmation by the system or dispatcher; requires reporting records. & Unavailable \\
+
+I03 & Instruction or execution delay & Time from a dispatching decision until a train executes the emergency action; requires communication and execution records. & Unavailable \\
+
+I04 & Certainty of reopening time & Whether reopening time is known at the decision; it is assumed known exactly at blockage start. & Constant \\
+
+I07 & Reopening forecast interval width & Width of the prediction interval for reopening time; zero under the deterministic assumption. & Constant \\
+
+I08 & Reopening forecast variability & Variance and distributional shape of the reopening-time forecast; the numerical variance is zero for the deterministic forecast. & Constant \\
+
+I10 & Number of recovery-information updates & Number of updates to recovery information; no dynamic updates are represented here. & Constant \\
+
+I11 & Time since the last information update & Elapsed time since the latest recovery-information update; requires update logs. & Unavailable \\
+
+I12 & Magnitude of forecast revisions & Changes between successive reopening forecasts and their accumulated magnitude; requires forecast histories. & Unavailable \\
+
+I13 & Retrospective reopening forecast error & Actual reopening time minus the prior forecast. This is a retrospective diagnostic, not a permissible input when the actual time is unknown. & Unavailable \\
+
+I14 & Certainty of blockage location and extent & Whether the location and affected resources are known; both are known here. An uncertain setting requires candidate extents and probabilities. & Constant \\
+
+I15 & Certainty of recovery mode and stages & Whether the restoration mode and stages are known; one complete reopening is assumed known here. & Constant \\
+
+I16 & Predicted risk of renewed closure & A forecast of renewed closure after temporary restoration; requires an available prior forecast and a corresponding resource model. & Unavailable \\
+
+M02 & Executed or irrevocable decision status & Whether an arrival, departure, or movement is already executed or irrevocable. This is a hard operating-state condition, not evidence that a freely adjustable decision can safely be fixed. & Context only \\
+
+M07 & Emergency stopping policy & The rule specifying which trains stop and wait, such as all trains or only directly affected trains. The current experiment uses the directly affected-train rule. & Context only \\
+
+Z03 & Weather and environmental conditions & Weather or other environmental conditions relevant to the disruption and train operation; these records are unavailable. & Unavailable \\
+
+Z04 & Repair-resource state & Available repair teams, access conditions, and repair stages; requires actual maintenance-response records. & Unavailable \\
+
+Z11 & Historical disruptions and contingency plans & Frequency and characteristics of comparable past disruptions and plans available at the decision time; requires historical records. & Unavailable \\
+
+Z12 & Damage severity and repair access & Equipment damage, work restrictions, and access for repair; the available inputs specify only the blockage window. & Unavailable \\
+
+\multicolumn{4}{@{}l}{\textbf{Timetable characteristics}}\\*[2pt]
+
+M01 & Decision and activity type & The decision class and activity represented by a record: stopping, dwell duration, running duration, or section order. Decision types define separate analyses. & Context only \\
+
+M08 & Available recovery decisions & The decision classes permitted by each recovery strategy. This is model context rather than an infrastructure property. & Context only \\
+
+M09 & Reference timetable provenance & The strategy, ordering rule, solution source, and identifier used to obtain the reference timetable. & Context only \\
+
+M10 & Objective and train weights & The objective definition and train-specific weights; the experiment minimizes positive terminal delay with unit train weights. & Context only \\
+
+M11 & Planning endpoint and remaining horizon & The time remaining to the planning endpoint, measured from the decision or relevant activity time. This describes an imposed modeling horizon. & Context only \\
+
+M12 & Time grid and numerical tolerance & The discretization and numerical acceptance settings; these are experiment controls rather than physical mechanisms. & Context only \\
+
+M13 & Representative-solution selection rule & How one solution is chosen when equally good timetables exist, for example by secondary minimum-change criteria or another tie rule. The analysis uses one returned representative per full model. & Context only \\
+
+M14 & Solver seed and initial timetable source & The search seed, encoding choices, and source of the initial timetable, which can influence the returned representative but are not operational causal factors. & Context only \\
+
+M15 & Solution-certification status & The objective bound and acceptance status supporting a returned solution, retained when interpreting adjustment labels. The reported solutions satisfy the prescribed relative-gap tolerance. & Context only \\
+
+T07 & Planned running-time margin & Planned running duration minus its operational minimum; zero in the studied timetable. & Constant \\
+
+T08 & Scheduled dwell margin & Dwell duration at a scheduled stop minus its minimum stopping time; zero in the studied timetable. & Constant \\
+
+T16 & Train objective weight or priority & A train's weight or priority in the objective; all terminal delays have unit weight here. & Constant \\
+
+T23 & Remaining planned buffer & Remaining planned buffer along a train's journey, distinguishing running, dwell, and inter-train headway margins. The recorded numerical forms are constant where available in this design. & Constant \\
+
+T25 & Planned reordering locations & Locations where relative train order changes between consecutive shared directed sections in the original timetable; a merge alone is not classified as overtaking. & Constant \\
+
+T26 & Arrival--departure rank difference & Difference between a train's planned arrival and departure ranks at the same station, keeping direction and parallel occupations distinct. & Constant \\
+
+Z02 & Train length and acceleration performance & Train lengths and acceleration/braking characteristics; additional data and a more detailed movement model are required. & Unavailable \\
+
+Z09 & Dispatching plans and manual priorities & Actual contingency rules or dispatcher priorities, including whether they constrain optimization; requires recorded operating rules. & Unavailable \\
+
+Z10 & Calendar and special operating conditions & Holiday, calendar, or special-service conditions; the synthetic planned timetable has no actual calendar attributes. & Unavailable \\
+
+\multicolumn{4}{@{}l}{\textbf{Train interactions}}\\*[2pt]
+
+P01 & Planned train-pair precedence & Which of two trains precedes the other on a common directed resource. Pairs are oriented by their planned order, so the available numerical form is constant. & Constant \\
+
+Z05 & Passenger demand and connection pressure & Passenger flows and transfer requirements that may affect rescheduling priorities; the present objective does not include passenger allocation. & Unavailable \\
+
+Z06 & Rolling-stock and crew connections & Vehicle and crew circulation requirements between services; these couplings require additional data and model constraints. & Unavailable \\
+
+\multicolumn{4}{@{}l}{\textbf{Infrastructure utilization}}\\*[2pt]
+
+F08 & Section track and direction configuration & Number and direction allocation of section tracks; every section has one running resource in each direction here. & Constant \\
+
+F09 & Minimum entry headway & Minimum separation between same-direction section entries; two minutes throughout the network. & Constant \\
+
+F10 & Minimum exit headway & Minimum separation between same-direction section exits; two minutes throughout the network. & Constant \\
+
+F11 & Station clearance time & Additional track-occupation time after departure or passage; one minute throughout the network. & Constant \\
+
+F19 & Boundary waiting and acceptance conditions & Rules governing waiting outside the origin boundary and acceptance at destinations; origin waiting is allowed and destination events do not occupy internal station tracks here. & Constant \\
+
+F20 & Station-throat and route conflicts & Incompatible station-throat movements or route settings; these microscopic conflicts are outside the available model. & Unavailable \\
+
+F21 & Platform length and train compatibility & Whether platform lengths and train types permit a train to use a platform; the required compatibility data are unavailable. & Unavailable \\
+
+F22 & Cross-direction sharing conditions & Permitted sharing or switching between directional resources; borrowing is prohibited and no cross-direction resource coupling is modeled here. & Constant \\
+
+F23 & Alternative routes and their costs & Number and cost of rerouting options; train routes are prescribed and are not adjustable here. & Constant \\
+
+Z01 & Section length and speed conditions & Actual section distances, speed limits, and gradients. Only running-time information is available in the present data. & Unavailable \\
+
+Z07 & Boundary and storage capacity & Capacity for trains waiting outside network boundaries or in storage; origin-side waiting space is unrestricted in the present model. & Unavailable \\
+
+Z08 & Detailed station routes and signaling & Microscopic route-setting and signaling conditions; these require data beyond the current headway and track representation. & Unavailable \\
+
+\multicolumn{4}{@{}l}{\textbf{Delay propagation patterns}}\\*[2pt]
+
+B14 & Propagation-source counts and types & Counts of distinct exogenous propagation sources, distinguishing physical disruption and emergency-policy sources and merging duplicated sources. & Constant \\
+
+H14 & Strongly connected component size & Number of nodes in the active strongly connected component containing an event; the active event graph is acyclic, so the available value is one. & Constant \\
+
+\end{longtable}
+
+\endgroup

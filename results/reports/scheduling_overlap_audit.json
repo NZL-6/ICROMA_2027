@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "passed": true,
+  "training_start": "2026-10-30T05:28:48.217769+08:00",
+  "training_end": "2026-10-30T06:38:29.517431+08:00",
+  "transfer_full_completed_at": "2026-10-30T06:20:24.885668+08:00",
+  "attempts_overlapping_training": 108,
+  "process_overlap_training_seconds": 583.7149341106415,
+  "exact_attempts_checked": 1008,
+  "uncertain_attempts": 0,
+  "no_simultaneous_target_solver_workers": true,
+  "restricted_solver_phase_waited": true,
+  "interval_scope": "Worker process interval reconstructed from durable ended_at minus measured process_wall_seconds; not allocated native solver time.",
+  "accounting": "All native and process measurements remain actual, without subtraction or normalization. Overlapping training and transfer phase durations must not be added as elapsed wall time.",
+  "gate_waits": [
+    {
+      "wait_seconds": 0.006030399999872316,
+      "finished_at": "2026-10-30T06:38:29.667911+08:00",
+      "scope": "Experiment scheduling wait; not native solver time and not added to hypothetical deployment pipeline latency.",
+      "no_two_target_solver_jobs_in_parallel": true
+    },
+    {
+      "wait_seconds": 0.0003212999945390038,
+      "finished_at": "2026-10-30T07:05:40.876447+08:00",
+      "scope": "Experiment scheduling wait; not native solver time and not added to hypothetical deployment pipeline latency.",
+      "no_two_target_solver_jobs_in_parallel": true
+    },
+    {
+      "wait_seconds": 0.00031820000003790483,
+      "finished_at": "2026-10-30T08:19:16.475717+08:00",
+      "scope": "Experiment scheduling wait; not native solver time and not added to hypothetical deployment pipeline latency.",
+      "no_two_target_solver_jobs_in_parallel": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "solver": "Native CP-SAT walltime: both directions, private helpers, every attempt and FULL refinement. P3 pipelines include upstream P2.",
+  "prediction_solver": "Inference plus cumulative native solver; offline training excluded.",
+  "online": "P1 generation once + feature construction/persistence + model loading/inference + mask audit/preparation + subprocess costs including model build/search/audit.",
+  "source_data_and_case_input_preparation": "Offline design generation separately archived in phase ledger; P1 generation charged online.",
+  "nested_costs": "Process time contains solver/helper time; these are alternative scopes, never added together.",
+  "incomplete_native_logs": "Lower bound and conservative wall-clock upper bound retained; no unknown interval represented as exact solver time.",
+  "labels": "Representative initial FULL solutions, frozen before model training; baseline reconciliation changes comparison objectives only.",
+  "training": "training_costs.json and phase_ledger.json; no transfer labels used",
+  "concurrent_scheduling": "User-authorized transfer FULL precomputation overlaps offline training only; actual native timings are retained. execution_schedule.csv and scheduling_overlap_audit.json record overlap; phase wall times are not additive.",
+  "solver_queue_wait": "Experiment scheduling waits are retained in transfer_full_gate_waits.json; they are not added to hypothetical standalone deployment latency."
+}

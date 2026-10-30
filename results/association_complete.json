@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "base_only": true,
+  "rows": 6402,
+  "seconds": 647.4153976000016,
+  "inference": "case/train dependence; dyadic train dependence for order pairs; BY correction; leave-onset and leave-location sensitivity",
+  "not_used_as_global_predictive_feature_filter": true
+}

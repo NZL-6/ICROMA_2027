@@ -1,0 +1,24 @@
+{
+  "failed_phase": {
+    "phase": "base_restricted_evaluation",
+    "seconds": 93.6199093000032,
+    "returncode": 1,
+    "ended_at": "2026-10-30T06:40:03.147539+08:00"
+  },
+  "target_specific_measured_failed_preparation": [
+    {
+      "case": "D002",
+      "key": "ML_P3_CHAIN",
+      "inference_seconds": 0.04291740000189748,
+      "model_loading_seconds": 0.0066253000040887855,
+      "validation_mask_and_audit_seconds": 0.03969599999982165,
+      "solver_seconds": 0.0,
+      "original_failed_prediction": "frozen_predictions/ML/D002_B_CHAIN.csv.gz",
+      "original_failed_prediction_sha256": "35f4a1248e6d8fa0393c441828fc2ecb7f2de3b2e2478be2f39cb8ebcaa4ccdf",
+      "note": "The failed prediction stopped before target job/model creation. Its measured inference/loading and recovery validation mask cost are charged to this target. Prior shared STAT-reference indicator construction is not charged again. Whole failed phase and unallocated orchestration overhead remain separately archived."
+    }
+  ],
+  "failed_target_solver_started": false,
+  "unknown_solver_time": false,
+  "allocation": "Failed phase walltime includes earlier successful jobs and is not added again to per-job solver/online totals. Measured failed prediction components are separately charged; residual orchestration overhead is retained as batch overhead without fabricating a per-target duration."
+}

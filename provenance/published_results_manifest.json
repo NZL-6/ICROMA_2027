@@ -1,0 +1,143 @@
+{
+  "byte_identical_files": [
+    {
+      "path": "results/reports/case_bootstrap_comparison.csv",
+      "source_relative_path": "reports/case_bootstrap_comparison.csv",
+      "sha256": "54cd133bfadbb79f28fdd47ce20a9c7b4734c42c770f476bfd7b86f2522fab94"
+    },
+    {
+      "path": "results/reports/catalog_coverage.json",
+      "source_relative_path": "reports/catalog_coverage.json",
+      "sha256": "26930c52bfd976e3d494eb095d0fe66d97a16dc11fbfbc37eef858bb8a5360bf"
+    },
+    {
+      "path": "results/reports/chained_reference_comparison.csv",
+      "source_relative_path": "reports/chained_reference_comparison.csv",
+      "sha256": "5d385a3cebdcd07f23ec7680a87175aa1dfa59e2ef7dbf5fbe5276da038bebaf"
+    },
+    {
+      "path": "results/reports/cost_scope.json",
+      "source_relative_path": "reports/cost_scope.json",
+      "sha256": "3bf25beb527f68240841e752fa4beab28d9db7fd4129731116d758ab321072b3"
+    },
+    {
+      "path": "results/reports/execution_schedule.csv",
+      "source_relative_path": "reports/execution_schedule.csv",
+      "sha256": "fa6b9b4bcc4091edaf4ec8a2123957fe399d9fe8026e8a74e63740b549b1a6df"
+    },
+    {
+      "path": "results/reports/indicator_associations.csv",
+      "source_relative_path": "reports/indicator_associations.csv",
+      "sha256": "c246ed3929f2e118bf4f66e40bcabcf3c7d7368427d924db6eabbd6493bd54d8"
+    },
+    {
+      "path": "results/reports/indicator_inventory.csv",
+      "source_relative_path": "reports/indicator_inventory.csv",
+      "sha256": "5fbe58aa3a5344dcf373440de0f87647fef0813661b6198521c225485817db4b"
+    },
+    {
+      "path": "results/reports/input_failure_reference_costs.csv",
+      "source_relative_path": "reports/input_failure_reference_costs.csv",
+      "sha256": "9d181919f63e734da97f4b75ca9937d026341ecf9473388ff610958f4ada55fa"
+    },
+    {
+      "path": "results/reports/input_failures.csv",
+      "source_relative_path": "reports/input_failures.csv",
+      "sha256": "b33d51f6cb34887c5cf253c84367453f5ec25ad9e709e3da66ce71e4d5d3d835"
+    },
+    {
+      "path": "results/reports/job_metrics.csv",
+      "source_relative_path": "reports/job_metrics.csv",
+      "sha256": "1da7e975718cdca74e3153daf60454961fba6ab945eba780744b6c8d36983b0a"
+    },
+    {
+      "path": "results/reports/outlier_sensitivity.csv",
+      "source_relative_path": "reports/outlier_sensitivity.csv",
+      "sha256": "215b88cb47141c8a96cc95dd2458d9915016908e68a0134a478ff50e34e2d6b1"
+    },
+    {
+      "path": "results/reports/paired_results.csv",
+      "source_relative_path": "reports/paired_results.csv",
+      "sha256": "65bbd5f27f3de0683705a8eae0dca64fa77bc8bb21667dcd3e8d3a55aad2730a"
+    },
+    {
+      "path": "results/reports/prediction_metrics.csv",
+      "source_relative_path": "reports/prediction_metrics.csv",
+      "sha256": "8041e03348b26600debd832e939c05c1556745e2704830c1436a775d67c30360"
+    },
+    {
+      "path": "results/reports/quality_loss_cases.csv",
+      "source_relative_path": "reports/quality_loss_cases.csv",
+      "sha256": "5ce4ca5d25fa3ab7e71ad7f3cd0f0cdac011b797f09466dcdec3d98d12eb6f47"
+    },
+    {
+      "path": "results/reports/reference_generation_costs.csv",
+      "source_relative_path": "reports/reference_generation_costs.csv",
+      "sha256": "0af8c240cb80cb34960b5dd2aeec3977eae513e3113eceed8b5b5bc42c9b3a31"
+    },
+    {
+      "path": "results/reports/scheduling_overlap_audit.json",
+      "source_relative_path": "reports/scheduling_overlap_audit.json",
+      "sha256": "59d12a938a87d41abbd194423232e7b99cf9ed8d87590ebc6c4a006ae9b56f68"
+    },
+    {
+      "path": "results/reports/stratified_summary.csv",
+      "source_relative_path": "reports/stratified_summary.csv",
+      "sha256": "45ed991ca92570ac4d9ece27b3aa4129dffdf37c73f21130c9099aed2b3729bd"
+    },
+    {
+      "path": "results/reports/summary.csv",
+      "source_relative_path": "reports/summary.csv",
+      "sha256": "a4ab305c5a3939de02f5699692e46aaae845146f894396dea20ae9f6651a37af"
+    },
+    {
+      "path": "results/reports/timing_uncertainty.csv",
+      "source_relative_path": "reports/timing_uncertainty.csv",
+      "sha256": "d6e96f631aaa2da622d0a70ac3204304196477c44920092d124d5b5c44fdcad6"
+    },
+    {
+      "path": "results/reports/unexecuted_input_failure_jobs.csv",
+      "source_relative_path": "reports/unexecuted_input_failure_jobs.csv",
+      "sha256": "13fc7284a563e4414824a4e2e3497e674536ab82a3a900d18bce6a66918156c7"
+    },
+    {
+      "path": "results/completion.json",
+      "source_relative_path": "completion.json",
+      "sha256": "6009d29c51962876c3e8ee5f6e724d9a9a5fbfe69046159d96a8534b2ddd518e"
+    },
+    {
+      "path": "results/final_validation.json",
+      "source_relative_path": "final_validation.json",
+      "sha256": "ba63f2892dc70867356ff49c32868bc1e603d7712d10e3802ec74c32de6674fd"
+    },
+    {
+      "path": "results/training_costs.json",
+      "source_relative_path": "training_costs.json",
+      "sha256": "05d61215597a12bedb1462243d1007a684a91719388d4debf89a32bca071103e"
+    },
+    {
+      "path": "results/phase_ledger.json",
+      "source_relative_path": "phase_ledger.json",
+      "sha256": "dc1e39e4626dbd153d82e74a6dba59f17874db043d05558409aa998cb288e55b"
+    },
+    {
+      "path": "results/association_complete.json",
+      "source_relative_path": "association_complete.json",
+      "sha256": "cb7c80fa6b9885e001400d66f0302b72df10c6019164b0cd0b1a0d78c853d9a4"
+    },
+    {
+      "path": "results/training_validation.json",
+      "source_relative_path": "training_validation.json",
+      "sha256": "855396aaca4b14779eca4f3f6f3e7e8579e4f4087229ebfc13b30f5a11cf412f"
+    }
+  ],
+  "derived_metadata": [
+    {
+      "path": "results/recovery_preparation_costs.json",
+      "source_relative_path": "reports/recovery_preparation_ledger.json",
+      "source_sha256": "05eb11610ffb734b34bf24a325cfdbfa13b02876522da767c079c6d9081e2499",
+      "transformation": "Omitted machine-specific failure traceback/error text and replaced the source prediction path with an experiment-relative path; all numeric timings retained.",
+      "sha256": "d0b16c3a01c71cbeeca1c1492f8ee4e213f8be6192e66ad8f4c59cfd070b31d4"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "phase": "base_full_references",
+    "seconds": 25416.7312221,
+    "returncode": 0,
+    "ended_at": "2026-10-30T04:56:57.047095+08:00"
+  },
+  {
+    "phase": "reference_indicators",
+    "seconds": 1262.1116831000036,
+    "returncode": 0,
+    "ended_at": "2026-10-30T05:17:59.162174+08:00"
+  },
+  {
+    "phase": "indicator_associations",
+    "seconds": 649.0564521999986,
+    "returncode": 0,
+    "ended_at": "2026-10-30T05:28:48.221902+08:00"
+  },
+  {
+    "phase": "training",
+    "seconds": 4181.2996623,
+    "returncode": 0,
+    "ended_at": "2026-10-30T06:38:29.517431+08:00"
+  },
+  {
+    "phase": "base_restricted_evaluation",
+    "seconds": 93.6199093000032,
+    "returncode": 1,
+    "ended_at": "2026-10-30T06:40:03.147539+08:00"
+  },
+  {
+    "phase": "base_restricted_evaluation",
+    "seconds": 4415.607935,
+    "returncode": 0,
+    "ended_at": "2026-10-30T08:19:16.359355+08:00"
+  },
+  {
+    "phase": "frozen_transfer",
+    "seconds": 2409.5434831999955,
+    "returncode": 0,
+    "ended_at": "2026-10-30T08:59:25.908570+08:00"
+  },
+  {
+    "phase": "final_audit_report",
+    "seconds": 116.89959269999963,
+    "returncode": 0,
+    "ended_at": "2026-10-30T09:01:22.811461+08:00"
+  },
+  {
+    "phase": "evidence_package",
+    "seconds": 208.5712854999947,
+    "returncode": 0,
+    "ended_at": "2026-10-30T09:04:51.380094+08:00"
+  }
+]

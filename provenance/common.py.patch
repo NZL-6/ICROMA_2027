@@ -1,0 +1,36 @@
+--- original/common.py
++++ release/common.py
+@@ -2,14 +2,11 @@
+ from pathlib import Path
+ import hashlib, importlib.util, json, math, os, sys
+ ROOT=Path(__file__).resolve().parent
+-WORK=ROOT.parent.parent
+-BASE=ROOT.parent/'fair_cpsat12_gap001_35_20261026'
+-BC=ROOT.parent/'supplemental_BC36_cpsat12_gap001_20261027'
+-OLD_TRAIN=ROOT.parent/'predict_and_constrain_35_20261026'
++WORK=ROOT.parent
+ ENGINE=ROOT/'vendor'
+ SOURCE=ROOT
+ OUT=ROOT
+-PYTHON=OLD_TRAIN/'.venv/Scripts/python.exe'
++PYTHON=Path(sys.executable)
+ SEED=20261026
+ STAGES={'A':('P1','P2',['Td','Tr']),'B':('P2','P3',['Td','Tr','O'])}
+ def read(p):return json.loads(Path(p).read_text(encoding='utf-8-sig'))
+@@ -36,12 +33,14 @@
+     return int(s[i][n]['departure']<s[r['other_train']][int(r['other_visit'])]['departure'])
+ def verify_sources():
+     for item in read(ROOT/'source_lock.json')['files']:
+-        assert sha(item['path'])==item['sha256'],('old source changed',item['path'])
++        p=Path(item['path']);p=p if p.is_absolute() else ROOT/p
++        assert sha(p)==item['sha256'],('release source changed',str(p))
+     return True
+ def verify_frozen():
+     if (ROOT/'execution_lock.json').exists():
+         for item in read(ROOT/'execution_lock.json')['files']:
+-            assert sha(item['path'])==item['sha256'],('frozen implementation changed',item['path'])
++            p=Path(item['path']);p=p if p.is_absolute() else ROOT/p
++            assert sha(p)==item['sha256'],('frozen implementation changed',str(p))
+     return True
+ def assert_ready():
+     assert read(ROOT/'protocol.json')['authorized']

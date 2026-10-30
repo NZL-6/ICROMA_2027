@@ -1,0 +1,214 @@
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.06}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.8cm}>{\raggedright\arraybackslash}p{3.7cm}>{\raggedright\arraybackslash}p{10.0cm}@{}}
+\caption{Computable, nonconstant indicator catalog}\label{tab:indicator-register}\\
+\toprule Code & Indicator & Operational definition \\ \midrule
+\endfirsthead
+\multicolumn{3}{l}{\textit{Table \thetable\ continued}}\\
+\toprule Code & Indicator & Operational definition \\ \midrule
+\endhead
+\midrule\multicolumn{3}{r}{\textit{Continued on next page}}\\
+\endfoot
+\bottomrule
+\multicolumn{3}{@{}p{14.5cm}@{}}{\footnotesize\textit{Notes:} Codes identify catalog items. Only computable items with nonconstant numerical forms in the association analysis of Section 4.2 of the main paper are listed. The symbols $\tau_b$ and $\tau_e$ denote blockage start and reopening. The interval $W$ is centered on a reference departure, with a total width of 5, 10, or 20 minutes as specified by the numerical form.}\\
+\endlastfoot
+\multicolumn{3}{@{}l}{\textbf{Disruption conditions}}\\*[2pt]
+D01 & Blockage start time & Blockage start $\tau_b$, in minutes after 08:00. \\
+D02 & Blockage end & Known reopening time $\tau_e$, in minutes after 08:00. \\
+D03 & Blockage duration & $\tau_e$ minus $\tau_b$, in minutes. \\
+D04 & Start-time wave phase & $\tau_b$ modulo the 40-minute departure-wave period. \\
+D05 & Reopening wave phase & $\tau_e$ modulo the 40-minute departure-wave period. \\
+D08 & Remaining blockage & Known remaining blockage duration at the initial decision. \\
+D09 & Time from start time & Reference or planned departure time minus $\tau_b$. \\
+D10 & Time from reopening & Reference or planned departure time minus $\tau_e$. \\
+D11 & Blocked section & Separate indicators for H1--C, U13--H1 and U11--U12; categorical location, not a continuous distance. \\
+D20 & Lost resource time & Two blocked directional running resources times blockage duration. \\
+E01 & Train state at start time & State indicators derived from the original timetable and committed history. \\
+E02 & Executed route fraction & Fraction of station departures already executed by start time. \\
+E03 & Current route position & Route index of the emergency stopping position or completed route end. \\
+E04 & Committed running remainder & Remaining time of an irrevocable run to the emergency station. \\
+E05 & Emergency stopping position & Route index of the first station reached under the emergency stopping rule. \\
+E06 & Time to emergency station & Known time from start time to the emergency station. \\
+E07 & Emergency arrival time & Known emergency-station arrival time, using $\tau_b$ for an origin hold. \\
+E08 & Minimum emergency hold & Required hold from emergency arrival or start time until $\tau_e$. \\
+E09 & Already stopped at start time & Indicator that the train is at a station when blockage begins. \\
+E12 & Origin waiting count & Network-wide number of emergency origin holds. \\
+E13 & Station waiting count & Network-wide number of emergency holds away from origins. \\
+E16 & Emergency backlog & Number of trains subject to the emergency stopping rule. \\
+E17 & Early release concentration & Fraction of emergency trains released before $\tau_e$ plus five minutes. \\
+E19 & Committed event count & Number of arrival and departure events fixed by operational history. \\
+E20 & Planned starts before release & Number of trains planned to start strictly between $\tau_b$ and $\tau_e$. \\
+E21 & Train-state counts at blockage start & Counts of origin holds, committed-run completions, station holds and completed trains. \\
+E26 & Committed movement count & Recorded runs that must finish despite the emergency rule. \\
+I05 & Predicted remaining duration & Known remaining blockage duration under the deterministic assumption. \\
+I06 & Remaining-duration bounds & Lower and upper predicted remaining durations; both equal the known duration here. \\
+I09 & Remaining-duration quantiles & The 0.1, 0.5 and 0.9 quantiles of remaining duration; equal under deterministic recovery. \\
+X01 & Blocked-section exposure & Whether the train's fixed route includes the blocked section. \\
+X02 & Already past blocked section & Whether the planned exit from the blocked section is no later than $\tau_b$. \\
+X03 & Planned clearance before start time & Whether the train was planned to clear the blocked section by $\tau_b$. \\
+X04 & Planned blockage overlap & Length of the planned blocked-section occupation intersecting $[\tau_b,\tau_e)$. \\
+X05 & Planned overlap fraction & Blockage overlap divided by planned blocked-section running duration. \\
+X06 & Planned entry from start time & Planned entry to the blocked section minus $\tau_b$. \\
+X07 & Planned exit from start time & Planned exit from the blocked section minus $\tau_b$. \\
+X08 & Sections to blockage entry & Remaining section count from the emergency position to blockage entry. \\
+X09 & Minimum time to entry & Sum of minimum running times from the emergency position to blockage entry. \\
+X10 & Signed blockage distance & Blockage-entry route index minus the candidate station index. \\
+X11 & At blockage entrance & Whether the candidate station is the blocked-section entrance. \\
+X12 & Can clear before start time & Single-train minimum-running estimate of clearing the blocked section before $\tau_b$. \\
+X13 & Arrival before reopening & Whether the emergency waiting station can be reached before reopening under the recorded operating state. \\
+X14 & Earliest-entry estimate & Single-train entry-time estimate, ignoring other trains. \\
+X15 & Earliest entry from release & Earliest-entry estimate minus $\tau_e$. \\
+X16 & Blockage-only waiting & Nonnegative $\tau_e$ minus earliest-entry estimate for a train not cleared by start time. \\
+X17 & Remaining route fraction & Remaining section count divided by total route section count. \\
+X18 & Emergency origin hold & Whether the emergency stopping rule holds this train at its origin. \\
+X19 & Emergency restriction type & Recorded category: no emergency hold, origin hold, committed-run completion, or station hold. \\
+\multicolumn{3}{@{}l}{\textbf{Timetable characteristics}}\\*[2pt]
+F12 & Minimum dwell & Station-specific minimum dwell in the operational input. \\
+F13 & Minimum running time & Train- and section-specific minimum running duration. \\
+F14 & Allowed stopping mode & Required-stop and unfixed optional-stop indicators in the operational input. \\
+M03 & Original domain width & Raw operational upper minus lower bound before common propagation. \\
+M04 & Propagated domain & Lower bound, upper bound, domain width or order-choice count after common preprocessing. \\
+M05 & Reference adjustment room & Reference value minus lower bound, upper bound minus reference, or reference order. \\
+M06 & Remaining candidate decisions & Counts of the train's remaining stopping, duration, precedence and track candidates. \\
+T01 & Planned arrival time & Original arrival time at the station. \\
+T02 & Planned departure time & Original visit departure time. \\
+T03 & Planned dwell & Original departure minus original arrival at a station. \\
+T04 & Planned running duration & Original duration of the outgoing running activity. \\
+T05 & Planned stopping mode & Original planned stopping indicator, without treating required stops as cancellable. \\
+T06 & Planned track label & Recorded numeric track-label suffix; an assignment descriptor, not a cardinal capacity. \\
+T09 & Planned entry buffer & Gap to the preceding planned entry minus the minimum entry headway. \\
+T10 & Planned exit buffer & Gap to the preceding planned exit minus the minimum exit headway. \\
+T11 & Planned track buffer & Planned arrival minus the latest preceding release on the same planned track. \\
+T12 & Planned local flow & Planned running-resource entries in $W$, divided by window width. \\
+T13 & Planned train-type pattern & Fast-train share and consecutive type-alternation fraction in $W$. \\
+T14 & Departure wave & Integer origin departure time divided by the 40-minute wave period. \\
+T15 & Fast-train indicator & Recorded fast/slow class, distinguished by minimum running duration. \\
+T17 & Total planned journey time & Planned terminal arrival minus origin departure. \\
+T18 & Remaining planned journey & Planned terminal arrival minus the candidate planned departure. \\
+T19 & Remaining minimum journey & Remaining minimum runs plus subsequent mandatory minimum dwells. \\
+T20 & Remaining scheduled stops & Count of subsequent stops required by the original timetable. \\
+T21 & Nearby scheduled-stop distance & Route-index distance to the preceding and following stops in the original timetable. \\
+T22 & Route extent & Total and remaining route section counts. \\
+T24 & Planned terminal position & Planned terminal arrival and its difference from $\tau_e$. \\
+\multicolumn{3}{@{}l}{\textbf{Train interactions}}\\*[2pt]
+B17 & Relation-layer overlap & Jaccard overlap of train-pair sets in entry, exit and station-track layers. \\
+E11 & Co-located emergency trains & Number of same-direction emergency trains waiting at the same station. \\
+E14 & Reference release rank & Rank in the emergency-station queue ordered by reference release time. \\
+E15 & Queue fast-train share & Fast-train fraction in the emergency-station queue. \\
+H17 & Window competition size & Distinct trains occupying the station in $W$; a window-based proxy. \\
+H18 & Co-window occupations & Number of train occupations at the station intersecting $W$; a competition-membership proxy. \\
+H20 & Support distance & Nearest optional-stop route-index distance and finite active distance for an order pair. \\
+H21 & Shared-visit coupling & Number of candidate decision classes and order candidates incident on the visit. \\
+H22 & Shared downstream support & Jaccard overlap of downstream event sets for endpoints or train pairs. \\
+P02 & Planned rank distance & Following-minus-leading rank on the common running resource. \\
+P03 & Planned entry gap & Following-minus-leading planned resource-entry time. \\
+P04 & Planned exit gap & Following-minus-leading planned resource-exit time. \\
+P05 & Running-duration contrast & Following-minus-leading planned running duration on the common resource. \\
+P06 & Train-type pair & Fast/fast, fast/slow, slow/fast and slow/slow category indicators. \\
+P07 & Remaining-journey contrast & Following-minus-leading remaining planned and minimum journey times. \\
+P08 & Terminal-time contrast & Following-minus-leading planned terminal arrival. \\
+P09 & Stop-pattern disagreement & Number of shared stations at which planned stopping indicators differ. \\
+P10 & Shared route extent & Common section count and the leading train's summed minimum time on those sections. \\
+P11 & Shared station pools & Number of stations common to both routes. \\
+P12 & Merge and split positions & First and last shared-station indices relative to the candidate visit. \\
+P13 & Catch-up proxy & Positive minimum-running-time advantage over common sections minus planned entry gap. \\
+P14 & Potential order positions & Number of free precedence candidates involving this train pair. \\
+P15 & Parallel common stations & Number of common stations with at least two same-direction tracks. \\
+P16 & Reference-delay contrast & Following-minus-leading reference departure delay. \\
+P17 & Same reference track & Whether both trains use the same nonempty track label in the reference. \\
+P18 & Reference interval overlap & Overlap of the two reference running intervals on the common resource. \\
+X20 & Same exposure category & Whether the two precedence trains have the same emergency restriction category. \\
+X21 & Pair entry-time contrast & Following-minus-leading earliest-entry time relative to $\tau_e$. \\
+X22 & Pair waiting contrast & Following-minus-leading blockage-only waiting estimate. \\
+X23 & Pair blockage-rank gap & Planned rank difference of the two trains on their common running resource. \\
+\multicolumn{3}{@{}l}{\textbf{Infrastructure utilization}}\\*[2pt]
+B07 & Regional saturation & Station saturation fraction in $W$. \\
+B13 & Adjacent-window difference & Following minus preceding window mean occupation. \\
+E10 & Emergency pool capacity & Number of same-direction tracks at the assigned emergency station. \\
+E18 & Parking concentration & Herfindahl concentration of emergency holds across stations. \\
+E23 & Initial station occupation & Same-direction station occupation at $\tau_b$ in the recorded reference. \\
+F01 & Facility role & Hub and common-corridor indicators for the candidate station. \\
+F02 & Physical degree & Degree in the undirected physical station graph. \\
+F03 & Branch-count proxy & Physical station degree minus one, bounded below by zero. \\
+F04 & Physical betweenness & Unweighted betweenness in the physical station graph. \\
+F05 & Physical articulation point & Whether the station is an articulation point of that graph. \\
+F06 & Directional pool size & Number of same-direction station tracks. \\
+F07 & Compatible tracks & Number of tracks allowed for the visit; zero at external boundaries. \\
+F15 & Parallel-capacity proxy & Same-direction track-pool size as a proxy for parallel reception. \\
+F16 & Downstream capacity gradient & Next station's directional capacity minus current capacity. \\
+F17 & Distance to a hub & Minimum physical section count to H1 or H2. \\
+F18 & Next stopping opportunity & Route-section distance to the next station at which stopping is permitted. \\
+H19 & Peak demand/capacity & Peak same-direction occupation in $W$ divided by track-pool size. \\
+R01 & Mean occupation & Time-average number of occupied same-direction station tracks in $W$. \\
+R02 & Peak occupation & Maximum same-direction station occupation in $W$. \\
+R03 & Minimum free capacity & Directional capacity minus peak occupation in $W$. \\
+R04 & Utilization & Mean occupation divided by directional track-pool capacity. \\
+R05 & Saturated fraction & Fraction of $W$ at which occupation reaches directional capacity. \\
+R06 & Saturation persistence & Longest consecutive saturated interval within $W$. \\
+R07 & Entry load & Reference entries in $W$ times minimum entry headway, divided by width. \\
+R08 & Exit load & Reference exits in $W$ times minimum exit headway, divided by width. \\
+R09 & Reference headway buffer & Reference entry/exit gap to the preceding train minus minimum headway. \\
+R10 & Intersecting dwell distribution & Durations of train occupations at the station whose occupations intersect $W$; not passenger waiting. \\
+R11 & Flow imbalance & Station arrivals minus departures within $W$. \\
+R12 & Demand/capacity proxy & Mean station occupation divided by directional capacity. \\
+R13 & Adjacent-station occupation & Upstream/downstream occupation at reference departure and their difference. \\
+R14 & Window competitors & Distinct trains with station occupations intersecting $W$. \\
+R15 & Free windows & Count, total duration and maximum duration of unsaturated intervals in $W$. \\
+R16 & Planned-arrival overlap & Planned station arrivals in $W$ that overlap a reference occupation. \\
+R17 & Occupation change rate & Difference of following and preceding window means divided by twice the width. \\
+R18 & Opposite-direction utilization & Opposite-direction mean occupation normalized by the corresponding capacity here. \\
+\multicolumn{3}{@{}l}{\textbf{Delay propagation patterns}}\\*[2pt]
+B01 & Local region size & Same-station, same-direction event and distinct-train counts in $W$. \\
+B02 & Local edges and density & Internal edge count and directed density in the local region. \\
+B03 & Active local density & Active internal edge count divided by possible directed event pairs. \\
+B04 & Boundary connections & Numbers of edges entering and leaving the local region. \\
+B05 & Regional delay distribution & Reference event-delay summaries for the local region. \\
+B06 & Regional delay variance & Variance of reference event delays in the local region. \\
+B08 & Community structure & Greedy-modularity community size and links to other communities. \\
+B09 & Boundary pressure imbalance & Outgoing minus incoming delay support across the region boundary. \\
+B10 & Affected-train share & Fraction of trains with positive reference terminal delay. \\
+B11 & Global path distribution & Summaries of longest active path lengths. \\
+B12 & Delay concentration & Entropy and Herfindahl indices of delay totals by station and 20-minute time bin. \\
+B15 & Global degree distribution & Incoming/outgoing active-degree summaries over graph events. \\
+B16 & Global reachability & Reachable ordered-event-pair fraction and mean finite active distance. \\
+G01 & Reference arrival delay & Reference arrival minus original planned arrival. \\
+G02 & Reference departure delay & Reference departure minus original planned departure. \\
+G03 & Activity delay increment & Difference of reference endpoint delays for dwell or running activities. \\
+G04 & Activity-duration increment & Reference dwell/running duration minus its planned duration. \\
+G05 & Event degree & Incoming and outgoing edge counts in the reference event graph. \\
+G06 & Cross-train degree & Incoming and outgoing edges linking different trains. \\
+G07 & Degree by relation & Incoming/outgoing counts for dwell, run, entry, exit, track and release relations. \\
+G08 & Active degree & Numbers of active incoming and outgoing edges. \\
+G09 & Active cross-train links & Count and fraction of active links between different trains. \\
+G10 & Edge-slack distribution & Incoming/outgoing edge slack summaries. \\
+G11 & Near-tight links & Incident edges with slack at most one or two minutes. \\
+G12 & Delay-support distribution & Incoming/outgoing positive delay-support summaries. \\
+G13 & Upstream-neighbor delay & Delay summaries of directly upstream different trains, deduplicated by train. \\
+G14 & Downstream-neighbor delay & Delay summaries of directly downstream different trains, deduplicated by train. \\
+G15 & Active-neighbor dispersion & Range, variance and coefficient of variation of active-neighbor delays. \\
+G16 & Incident-link imbalance & Outgoing minus incoming degree and delay-support sums. \\
+G17 & Relation-type entropy & Entropy of incident edge-type counts. \\
+G18 & External-source share & Fraction of incoming edges from the merged external release source. \\
+G19 & Endpoint contrasts & Departure/arrival feature differences and recorded running-endpoint contrasts. \\
+H01 & Shortest source distance & Shortest active-source edge count and recorded cumulative minimum-lag distance. \\
+H02 & Longest active path & Longest active directed path ending at the event. \\
+H03 & Event time from release & Reference event time minus reopening time $\tau_e$. \\
+H04 & Upstream reachability & Number of active upstream events, excluding the merged source. \\
+H05 & Downstream reachability & Number of active downstream events. \\
+H06 & Upstream trains & Distinct trains among active upstream events. \\
+H07 & Downstream trains & Distinct trains among active downstream events. \\
+H08 & Spatial reachability & Distinct stations and branches reachable upstream/downstream. \\
+H09 & Reachable delay totals & Event-delay sums and sums of per-train maximum delays upstream/downstream. \\
+H10 & Active betweenness & Normalized unweighted betweenness in the active directed graph. \\
+H11 & Harmonic closeness & Normalized sums of reciprocal finite active distances, incoming and outgoing. \\
+H12 & PageRank & Active-graph PageRank with damping 0.85. \\
+H13 & Weak-component size & Event and distinct-train counts in the active weak component. \\
+H15 & Chain and crossing length & Longest active chain and maximum number of cross-train edges along a chain. \\
+H16 & Local motifs & Fan-in pairs, fan-out pairs and directed diamonds at their source. \\
+H23 & Local clustering & Local clustering coefficient in the undirected projection of the active propagation graph. \\
+H24 & Projection core number & Core number in the active graph's undirected projection. \\
+H25 & Local assortativity & Neighbor same-speed-class fraction and mean absolute delay difference. \\
+\end{longtable}
+\endgroup

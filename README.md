@@ -75,4 +75,3 @@ The archived result tables are byte-identical to the originals except the explic
 No full experiment or clean-environment installation was performed for this release. Static validation and archive integrity checks are reported in `provenance/release_validation.json`. A reuse license has not been assigned; see [`LICENSE_NOTICE.md`](LICENSE_NOTICE.md).
 
 This package accompanies the manuscript at the public repository <https://github.com/NZL-6/ICROMA_2027>. The manuscript's supplementary-material statement uses this address. The release-validation records describe the checks performed before publication.
-

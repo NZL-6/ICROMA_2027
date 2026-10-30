@@ -1,0 +1,30 @@
+\begingroup
+\small
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.15cm}>{\centering\arraybackslash}p{1.65cm}>{\centering\arraybackslash}p{1.9cm}>{\centering\arraybackslash}p{1.85cm}>{\centering\arraybackslash}p{1.7cm}>{\centering\arraybackslash}p{1.7cm}@{}}
+\toprule
+Strategy / setting / method & Solver time (s) & Prediction-\allowbreak plus-\allowbreak solver time (s) & Complete online time (s) & Solver computation time ratio & Complete online computation time ratio \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{Training and test scenarios}}\\
+Strategy-2 / FULL & 34.30 & 34.30 & 394.02 & 1.00 & 1.00 \\
+Strategy-2 / STAT & 25.52 & 27.27 & 803.62 & 1.34 & 0.49 \\
+Strategy-2 / ML & 26.12 & 27.43 & 808.49 & 1.31 & 0.49 \\
+Strategy-3 / FULL & 24642.53 & 24642.53 & 25245.97 & 1.00 & 1.00 \\
+Full-reference / STAT & 269.77 & 272.90 & 1623.23 & 91.35 & 15.55 \\
+Full-reference / ML & 355.04 & 357.37 & 1708.79 & 69.41 & 14.77 \\
+Chained / STAT & 226.96 & 231.43 & 2007.86 & 108.58 & 12.57 \\
+Chained / ML & 349.11 & 352.49 & 2135.52 & 70.59 & 11.82 \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{Transfer scenarios}}\\
+Strategy-2 / FULL & 19.17 & 19.17 & 192.79 & 1.00 & 1.00 \\
+Strategy-2 / STAT & 14.54 & 15.31 & 398.79 & 1.32 & 0.48 \\
+Strategy-2 / ML & 14.41 & 15.03 & 400.89 & 1.33 & 0.48 \\
+Strategy-3 / FULL & 194.07 & 194.07 & 493.12 & 1.00 & 1.00 \\
+Full-reference / STAT & 68.67 & 69.99 & 737.24 & 2.83 & 0.67 \\
+Full-reference / ML & 64.66 & 65.79 & 732.89 & 3.00 & 0.67 \\
+Chained / STAT & 63.48 & 65.56 & 943.78 & 3.06 & 0.52 \\
+Chained / ML & 57.78 & 59.37 & 938.85 & 3.36 & 0.53 \\
+\bottomrule
+\end{tabular}
+\endgroup

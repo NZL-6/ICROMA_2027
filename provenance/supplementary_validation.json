@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "pages": 228,
+  "catalog_items": 267,
+  "estimable_catalog_items": 191,
+  "other_catalog_items": 76,
+  "estimable_association_responses": 6402,
+  "numeric_association_cells_unchanged": true,
+  "native_compilation": "success",
+  "built_in_compilation": "success",
+  "undefined_references": false,
+  "overfull_boxes": [],
+  "visual_review": {
+    "pages_reviewed": 228,
+    "reviewer_ranges": [
+      [
+        1,
+        72
+      ],
+      [
+        73,
+        112
+      ],
+      [
+        113,
+        228
+      ]
+    ],
+    "unresolved_findings": []
+  },
+  "pdf_sha256": "85d04bf5a8727cc6772e74f95bd2a13a5757d7133b201a88eb6ded27b791773c",
+  "experiment_executed_for_packaging": false,
+  "proprietary_fonts_bundled": false
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "reviewer": "independent static-audit agent",
+  "scope": "Read-only released-code dependency graph, fresh-run initialization, original-source/input identity and safe verification",
+  "source_files": 30,
+  "byte_identical_source_files": 28,
+  "documented_adapters": [
+    "common.py",
+    "package.py"
+  ],
+  "initial_input_files_byte_identical": 999,
+  "runtime_dependencies_complete": true,
+  "run_worker_snapshot_nesting_preserved": true,
+  "rebased_locks_checked": true,
+  "historical_target_solutions_models_or_completion_markers_seeded": false,
+  "line_ending_conversion_disabled": true,
+  "blocking_findings": [],
+  "full_experiment_run": false,
+  "clean_environment_installation": false,
+  "excluded_helper": "validate_features.py was omitted after identifying a dormant reference to an earlier experiment."
+}

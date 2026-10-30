@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "registered": 111,
+  "valid_cases": 111,
+  "initial_target_results": 888,
+  "physical_and_mask_audits": true,
+  "all_gaps_strictly_below_point001": true,
+  "no_restricted_result_beats_final_FULL": true,
+  "training_and_transfer_isolation": true,
+  "source_hashes_preserved": true,
+  "source_and_model_locks_checked": true,
+  "all_attempt_costs_retained": true,
+  "paper_update_pending": true,
+  "scheduling_overlap_audited": true
+}

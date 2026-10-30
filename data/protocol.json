@@ -1,0 +1,47 @@
+{
+  "authorized": true,
+  "base_cases": 75,
+  "transfer_cases": 36,
+  "initial_targets": 888,
+  "workers": 12,
+  "seed": 20261026,
+  "relative_gap_strictly_below": 0.001,
+  "time_limit": null,
+  "solver": "CP-SAT",
+  "version": "9.15.6755",
+  "fixing_fraction": 0.5,
+  "stages": {
+    "A": [
+      "P1",
+      "P2",
+      [
+        "Td",
+        "Tr"
+      ]
+    ],
+    "B": [
+      "P2",
+      "P3",
+      [
+        "Td",
+        "Tr",
+        "O"
+      ]
+    ]
+  },
+  "optional_stop_and_dwell_free": true,
+  "emergency": "Only trains whose unfinished planned closure traversal overlaps closure are held at prescribed nearest station; other trains may queue.",
+  "capacity": "Exact per-track optional intervals and no-overlap plus redundant cumulative.",
+  "P1": "Original order and planned running durations; planned dwell lower bounds with safety queueing; minimize terminal delay.",
+  "P3": "Joint dwell, running duration and precedence optimization; direct FULL warm-starts from P1.",
+  "folds": "Five stratified scenario folds; four inner folds; final frozen transfer models fit on all admissible base cases.",
+  "prediction_candidates": "Paper catalog recomputed for actual closure; unavailable and constant columns inventoried; local24/global8 plus controls.",
+  "timings": [
+    "cumulative_native_solver",
+    "inference_plus_solver",
+    "complete_online_including_P1"
+  ],
+  "no_unseen_location_transfer": true,
+  "no_track_or_buffer_changes": true,
+  "old_results_unchanged": true
+}

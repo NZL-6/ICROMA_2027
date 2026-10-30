@@ -1,0 +1,2 @@
+# Optional solver-only overlay. See environment/README.md before using.
+typing-extensions==4.12.2
